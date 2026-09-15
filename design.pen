@@ -1,0 +1,5456 @@
+{
+  "version": "2.17",
+  "children": [
+    {
+      "type": "frame",
+      "id": "hByra",
+      "x": 0,
+      "y": 0,
+      "name": "Hero - Desktop",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "#FAFAF9",
+      "layout": "vertical",
+      "padding": [
+        0,
+        120
+      ],
+      "justifyContent": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "bUy3u",
+          "name": "Hero Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "jvBWx",
+              "name": "Desktop Tick",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "vaNtt",
+                  "name": "Hairline",
+                  "opacity": 0.5,
+                  "fill": "$text-secondary",
+                  "width": 16,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "fb72T",
+                  "name": "Role Label",
+                  "fill": "$text-secondary",
+                  "content": "FULL-STACK SOFTWARE ENGINEER",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.08
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "m5JK0s",
+              "x": 0,
+              "y": 263,
+              "name": "Role Label",
+              "enabled": false,
+              "fill": "#78716C",
+              "content": "FULL-STACK SOFTWARE ENGINEER",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.08
+            },
+            {
+              "type": "text",
+              "id": "O53IE",
+              "name": "Headline",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Thoughtful code, considered design — that’s how I build",
+              "lineHeight": 1.1,
+              "fontFamily": "$font-headline",
+              "fontSize": 56,
+              "fontWeight": "600",
+              "letterSpacing": -0.03
+            },
+            {
+              "type": "text",
+              "id": "tSp6H",
+              "name": "Supporting Text",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": 540,
+              "content": "Building for web and mobile with React, Next.js, and React Native. GDG Web Dev Lead, shaping the African developer ecosystem one project at a time.",
+              "lineHeight": 1.6,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "FsFiL",
+              "name": "CTA Button",
+              "fill": "$cta-fill",
+              "cornerRadius": 6,
+              "gap": 8,
+              "padding": [
+                14,
+                28
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Pt10g",
+                  "name": "CTA Label",
+                  "fill": "$cta-text",
+                  "content": "View my work",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J9EloJ",
+          "layoutPosition": "absolute",
+          "x": 700,
+          "y": 830,
+          "name": "Scroll Indicator",
+          "layout": "vertical",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "l8cmx",
+              "name": "Scroll Label",
+              "opacity": 0.5,
+              "fill": "$text-secondary",
+              "content": "SCROLL",
+              "fontFamily": "$font-body",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "rectangle",
+              "id": "xxu3I",
+              "name": "Scroll Line",
+              "opacity": 0.3,
+              "fill": "$text-secondary",
+              "width": 1,
+              "height": 28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t9vnlR",
+          "layoutPosition": "absolute",
+          "x": 920,
+          "y": 180,
+          "name": "Decorative E",
+          "width": 500,
+          "height": 600,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "ecgyW",
+              "x": 0,
+              "y": 0,
+              "name": "Letter E",
+              "opacity": 0.06,
+              "fill": "$text-primary",
+              "content": "E",
+              "fontFamily": "$font-headline",
+              "fontSize": 480,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "dIu8K",
+      "x": 1520,
+      "y": 0,
+      "name": "Hero - Mobile",
+      "clip": true,
+      "width": 390,
+      "height": 844,
+      "fill": "#FAFAF9",
+      "layout": "vertical",
+      "padding": [
+        0,
+        32
+      ],
+      "justifyContent": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "z4lecS",
+          "name": "Mobile Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "O7pmw8",
+              "name": "Mobile Tick",
+              "gap": 8,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "dUtRr",
+                  "name": "Mobile Hairline",
+                  "opacity": 0.5,
+                  "fill": "$text-secondary",
+                  "width": 14,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "WGnGf",
+                  "name": "Mobile Role Label",
+                  "fill": "$text-secondary",
+                  "content": "FULL-STACK SOFTWARE ENGINEER",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.08
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "n2MhId",
+              "x": 0,
+              "y": 217.5,
+              "name": "Mobile Role Label",
+              "enabled": false,
+              "fill": "$text-secondary",
+              "content": "FULL-STACK SOFTWARE ENGINEER",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "fontWeight": "normal",
+              "letterSpacing": 0.08
+            },
+            {
+              "type": "text",
+              "id": "g10YBZ",
+              "name": "Mobile Headline",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Thoughtful code, considered design — that’s how I build",
+              "lineHeight": 1.1,
+              "fontFamily": "$font-headline",
+              "fontSize": 36,
+              "fontWeight": "600",
+              "letterSpacing": -0.02
+            },
+            {
+              "type": "text",
+              "id": "YvQAY",
+              "name": "Mobile Supporting",
+              "fill": "$text-secondary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Building for web and mobile with React, Next.js, and React Native. GDG Web Dev Lead, shaping the African developer ecosystem.",
+              "lineHeight": 1.6,
+              "fontFamily": "$font-body",
+              "fontSize": 16,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "roxhy",
+              "name": "Mobile CTA",
+              "fill": "$cta-fill",
+              "cornerRadius": 6,
+              "gap": 8,
+              "padding": [
+                14,
+                24
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x49sPg",
+                  "name": "Mobile CTA Label",
+                  "fill": "$cta-text",
+                  "content": "View my work",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "C7jWY",
+          "layoutPosition": "absolute",
+          "x": 175,
+          "y": 780,
+          "name": "Mobile Scroll",
+          "layout": "vertical",
+          "gap": 6,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "BKWk4",
+              "name": "Mobile Scroll Label",
+              "opacity": 0.5,
+              "fill": "$text-secondary",
+              "content": "SCROLL",
+              "fontFamily": "$font-body",
+              "fontSize": 10,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "rectangle",
+              "id": "x08IFU",
+              "name": "Mobile Scroll Line",
+              "opacity": 0.3,
+              "fill": "$text-secondary",
+              "width": 1,
+              "height": 20
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "A4caa",
+          "layoutPosition": "absolute",
+          "x": 260,
+          "y": 200,
+          "name": "Mobile Decorative E",
+          "width": 200,
+          "height": 300,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "sE8LT",
+              "x": 0,
+              "y": 0,
+              "name": "Mobile Letter E",
+              "opacity": 0.06,
+              "fill": "$text-primary",
+              "content": "E",
+              "fontFamily": "$font-headline",
+              "fontSize": 240,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "vzDUs",
+      "x": 1990,
+      "y": 0,
+      "name": "Hero - Dark Mode",
+      "clip": true,
+      "width": 1440,
+      "height": 900,
+      "fill": "#1C1917",
+      "layout": "vertical",
+      "padding": [
+        0,
+        120
+      ],
+      "justifyContent": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "goyt7",
+          "name": "Dark Content",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "G6Bd8M",
+              "name": "Dark Tick",
+              "gap": 10,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "gN9k3",
+                  "name": "Dark Hairline",
+                  "opacity": 0.5,
+                  "fill": "#A8A29F",
+                  "width": 16,
+                  "height": 1
+                },
+                {
+                  "type": "text",
+                  "id": "rC0in",
+                  "name": "Dark Role Label",
+                  "fill": "#A8A29F",
+                  "content": "FULL-STACK SOFTWARE ENGINEER",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.08
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "vzOn9",
+              "x": 0,
+              "y": 263,
+              "name": "Dark Role Label",
+              "enabled": false,
+              "fill": "#A8A29F",
+              "content": "FULL-STACK SOFTWARE ENGINEER",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.08
+            },
+            {
+              "type": "text",
+              "id": "jEEh1",
+              "name": "Dark Headline",
+              "fill": "#F5F5F4",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Thoughtful code, considered design — that’s how I build",
+              "lineHeight": 1.1,
+              "fontFamily": "$font-headline",
+              "fontSize": 56,
+              "fontWeight": "600",
+              "letterSpacing": -0.03
+            },
+            {
+              "type": "text",
+              "id": "JuHmQ",
+              "name": "Dark Supporting",
+              "fill": "#A8A29F",
+              "textGrowth": "fixed-width",
+              "width": 540,
+              "content": "Building for web and mobile with React, Next.js, and React Native. GDG Web Dev Lead, shaping the African developer ecosystem one project at a time.",
+              "lineHeight": 1.6,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "FmYlX",
+              "name": "Dark CTA",
+              "fill": "#B09DBF",
+              "cornerRadius": 6,
+              "gap": 8,
+              "padding": [
+                14,
+                28
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "oQr7g",
+                  "name": "Dark CTA Label",
+                  "fill": "#292524",
+                  "content": "View my work",
+                  "fontFamily": "$font-body",
+                  "fontSize": 15,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "AvVaR",
+          "layoutPosition": "absolute",
+          "x": 700,
+          "y": 830,
+          "name": "Dark Scroll",
+          "layout": "vertical",
+          "gap": 8,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "k20Uca",
+              "name": "Dark Scroll Label",
+              "opacity": 0.5,
+              "fill": "#A8A29F",
+              "content": "SCROLL",
+              "fontFamily": "$font-body",
+              "fontSize": 11,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "rectangle",
+              "id": "dgv91",
+              "name": "Dark Scroll Line",
+              "opacity": 0.3,
+              "fill": "#A8A29F",
+              "width": 1,
+              "height": 28
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "SFe3i",
+          "layoutPosition": "absolute",
+          "x": 920,
+          "y": 180,
+          "name": "Dark Decorative E",
+          "width": 500,
+          "height": 600,
+          "layout": "none",
+          "children": [
+            {
+              "type": "text",
+              "id": "or9K2",
+              "x": 0,
+              "y": 0,
+              "name": "Dark Letter E",
+              "opacity": 0.06,
+              "fill": "#F5F5F4",
+              "content": "E",
+              "fontFamily": "$font-headline",
+              "fontSize": 480,
+              "fontWeight": "600"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "f2ZVne",
+      "x": 0,
+      "y": 1079,
+      "name": "Selected Work - Desktop",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#FAFAF9",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "AHULw",
+          "name": "Section Heading",
+          "fill": "$text-primary",
+          "content": "Selected Work",
+          "fontFamily": "$font-headline",
+          "fontSize": 32,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "mqa5S",
+          "name": "Projects Grid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "IARxQ",
+              "name": "Row 1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "v3faK5",
+                  "name": "Card: Aurora",
+                  "width": "fill_container",
+                  "fill": "$card-bg",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "P8BZR3",
+                      "name": "Category",
+                      "fill": "$text-secondary",
+                      "content": "PERSONAL · 2026",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "Sewzt",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "Aurora",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "HevEI",
+                      "name": "Description",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A minimal habit tracker built to test offline-first sync patterns.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "gYTtk",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "l2kbcH",
+                          "name": "Chip: React Native",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "q53Zq",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "React Native",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PMdQ8",
+                          "name": "Chip: Expo",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "U2XA6j",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "Expo",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ERCZb",
+                          "name": "Chip: SQLite",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fX9EW",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "SQLite",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "b8Cphj",
+                      "name": "View Link",
+                      "fill": "$accent",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "D1U7a",
+                  "name": "Card: Fieldnote",
+                  "width": "fill_container",
+                  "fill": "$card-bg",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OYvcw",
+                      "name": "Category",
+                      "fill": "$text-secondary",
+                      "content": "CONTRACT · 2025",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "QzvJN",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "Fieldnote",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x0IKtD",
+                      "name": "Description",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Field data collection tool for an agricultural NGO, built for low-connectivity use in rural areas.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "UmuUg",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "IUSv8",
+                          "name": "Chip: Next.js",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "J543ed",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "Next.js",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kel59",
+                          "name": "Chip: Supabase",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "plEfS",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "Supabase",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sAhyG",
+                          "name": "Chip: Tailwind",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "z2kazh",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "Tailwind",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "g1bgN",
+                          "name": "Chip: PWA",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "m8kdU",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "PWA",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "i74Sq1",
+                      "name": "View Link",
+                      "fill": "$accent",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "K7wOlc",
+              "name": "Row 2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "V8Cu8O",
+                  "name": "Card: Loop",
+                  "width": "fill_container",
+                  "fill": "$card-bg",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xdXma",
+                      "name": "Category",
+                      "fill": "$text-secondary",
+                      "content": "PRODUCT · 2026",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "cKsHg",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "Loop",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "v6xKXg",
+                      "name": "Description",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A small social app for tracking shared habits with friends, from idea to shipped MVP in six weeks.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "MSizm",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "U5Xp42",
+                          "name": "Chip: React Native",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "HBRTA",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "React Native",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xWl57",
+                          "name": "Chip: Node.js",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ywTrP",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "Node.js",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OodMR",
+                          "name": "Chip: PostgreSQL",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xO7Ae",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "PostgreSQL",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "N06BXV",
+                      "name": "View Link",
+                      "fill": "$accent",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "rgUiG",
+                  "name": "Card: Nimbus",
+                  "width": "fill_container",
+                  "fill": "$card-bg",
+                  "cornerRadius": 12,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "b687vk",
+                      "name": "Category",
+                      "fill": "$text-secondary",
+                      "content": "PRODUCTION · 2025",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "fYK4Q",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "Nimbus",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "V0Si7e",
+                      "name": "Description",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Internal dashboard rebuild for a logistics client — real-time fleet tracking and route optimization.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "aMxnH",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "r6E9Xu",
+                          "name": "Chip: React",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "zDYzj",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "React",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "H1Sp5N",
+                          "name": "Chip: TypeScript",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "juqTy",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "TypeScript",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "T0Eqe",
+                          "name": "Chip: WebSockets",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "TS4s4",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "WebSockets",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Z7gb7o",
+                          "name": "Chip: Mapbox",
+                          "cornerRadius": 99,
+                          "stroke": "$border-subtle",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "QsfaW",
+                              "name": "Chip Label",
+                              "fill": "$text-secondary",
+                              "content": "Mapbox",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "czUwf",
+                      "name": "View Link",
+                      "fill": "$accent",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TR2S5",
+      "x": 1520,
+      "y": 1079,
+      "name": "Selected Work - Mobile",
+      "clip": true,
+      "width": 390,
+      "height": 1500,
+      "fill": "#E7E5E4",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        48,
+        24
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "LFut2",
+          "name": "Mobile Section Heading",
+          "fill": "$text-primary",
+          "content": "Selected Work",
+          "fontFamily": "$font-headline",
+          "fontSize": 28,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "K7rCw",
+          "name": "Mobile Grid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "frame",
+              "id": "xck6n",
+              "name": "Mobile Card: Aurora",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f8oFR9",
+                  "name": "Category",
+                  "fill": "$text-secondary",
+                  "content": "PERSONAL · 2026",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.06
+                },
+                {
+                  "type": "text",
+                  "id": "M1Zm0",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "content": "Aurora",
+                  "fontFamily": "$font-headline",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "HUoZH",
+                  "name": "Description",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A minimal habit tracker built to test offline-first sync patterns.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "ugUVx",
+                  "name": "Chips",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "BeCSv",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lwhM9",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "React Native",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PNGsB",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "G1iFBB",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "Expo",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "tGmWM",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "sYMrT",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "SQLite",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ZjnLB",
+                  "name": "View Link",
+                  "fill": "$accent",
+                  "content": "View project →",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lgtXG",
+              "name": "Mobile Card: Fieldnote",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "W2WSMR",
+                  "name": "Category",
+                  "fill": "$text-secondary",
+                  "content": "CONTRACT · 2025",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.06
+                },
+                {
+                  "type": "text",
+                  "id": "f9GJ0",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "content": "Fieldnote",
+                  "fontFamily": "$font-headline",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "av98S",
+                  "name": "Description",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Field data collection tool for an agricultural NGO, built for low-connectivity use in rural areas.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "DjUzS",
+                  "name": "Chips",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "jTNwa",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "NSu5l",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "Next.js",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "PTrqS",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B3KWF",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "Supabase",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iYbaB",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VRaOx",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "Tailwind",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a5XaA",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T0vVE9",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "PWA",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "PPicz",
+                  "name": "View Link",
+                  "fill": "$accent",
+                  "content": "View project →",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FrWn0",
+              "name": "Mobile Card: Loop",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "sFDte",
+                  "name": "Category",
+                  "fill": "$text-secondary",
+                  "content": "PRODUCT · 2026",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.06
+                },
+                {
+                  "type": "text",
+                  "id": "lvvNU",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "content": "Loop",
+                  "fontFamily": "$font-headline",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "ukhl8",
+                  "name": "Description",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "A small social app for tracking shared habits with friends, from idea to shipped MVP in six weeks.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "wvv3s",
+                  "name": "Chips",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "q4esdz",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Hk86w",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "React Native",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eVI9m",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "B7J7J",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "Node.js",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Oks6c",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Q6W73n",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "PostgreSQL",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "UWwo5",
+                  "name": "View Link",
+                  "fill": "$accent",
+                  "content": "View project →",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "NIhIe",
+              "name": "Mobile Card: Nimbus",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "w62SzG",
+                  "name": "Category",
+                  "fill": "$text-secondary",
+                  "content": "PRODUCTION · 2025",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "fontWeight": "normal",
+                  "letterSpacing": 0.06
+                },
+                {
+                  "type": "text",
+                  "id": "KiVnX",
+                  "name": "Title",
+                  "fill": "$text-primary",
+                  "content": "Nimbus",
+                  "fontFamily": "$font-headline",
+                  "fontSize": 18,
+                  "fontWeight": "600"
+                },
+                {
+                  "type": "text",
+                  "id": "xXJ4p",
+                  "name": "Description",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Internal dashboard rebuild for a logistics client — real-time fleet tracking and route optimization.",
+                  "lineHeight": 1.5,
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "nM7K8",
+                  "name": "Chips",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e9tEX",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "cCxG1",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "React",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zwYuT",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "o7mre",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "TypeScript",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Kg679",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "SVupD",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "WebSockets",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "iHjKU",
+                      "name": "Chip",
+                      "cornerRadius": 99,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "padding": [
+                        3,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "W50WV",
+                          "name": "Chip Label",
+                          "fill": "$text-secondary",
+                          "content": "Mapbox",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "VDMqU",
+                  "name": "View Link",
+                  "fill": "$accent",
+                  "content": "View project →",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13,
+                  "fontWeight": "500"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TcITM",
+      "x": 1990,
+      "y": 1079,
+      "name": "Selected Work - Dark",
+      "clip": true,
+      "width": 1440,
+      "height": 960,
+      "fill": "#1C1917",
+      "layout": "vertical",
+      "gap": 48,
+      "padding": [
+        80,
+        120
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "k6a1I",
+          "name": "Dark Section Heading",
+          "fill": "#F5F5F4",
+          "content": "Selected Work",
+          "fontFamily": "$font-headline",
+          "fontSize": 32,
+          "fontWeight": "600"
+        },
+        {
+          "type": "frame",
+          "id": "GHFAX",
+          "name": "Dark Grid",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "PtRA6",
+              "name": "Dark Row 1",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LwoEb",
+                  "name": "Dark Card: Aurora",
+                  "width": "fill_container",
+                  "fill": "#292524",
+                  "cornerRadius": 12,
+                  "stroke": "#44403C",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FckPj",
+                      "name": "Category",
+                      "fill": "#A8A29F",
+                      "content": "PERSONAL · 2026",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "VdRiY",
+                      "name": "Title",
+                      "fill": "#F5F5F4",
+                      "content": "Aurora",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "MJ7YH",
+                      "name": "Description",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A minimal habit tracker built to test offline-first sync patterns.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "mZmMY",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "kDnfq",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "fqBql",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "React Native",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "rn5ek",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xkh4R",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "Expo",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "HJk7r",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wSN3z",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "SQLite",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "oKcB8",
+                      "name": "View Link",
+                      "fill": "#B09DBF",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "LObCc",
+                  "name": "Dark Card: Fieldnote",
+                  "width": "fill_container",
+                  "fill": "#292524",
+                  "cornerRadius": 12,
+                  "stroke": "#44403C",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "zXIgg",
+                      "name": "Category",
+                      "fill": "#A8A29F",
+                      "content": "CONTRACT · 2025",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "c5NhE",
+                      "name": "Title",
+                      "fill": "#F5F5F4",
+                      "content": "Fieldnote",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kWEqy",
+                      "name": "Description",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Field data collection tool for an agricultural NGO, built for low-connectivity use in rural areas.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "c8CzIN",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "h6bZ9",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "WcDx9",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "Next.js",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vY2Qg",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "x1UVJ8",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "Supabase",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "M8CB4C",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "RZ1aW",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "Tailwind",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NyJGb",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "t6ypIn",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "PWA",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "NOhw2",
+                      "name": "View Link",
+                      "fill": "#B09DBF",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Twktq",
+              "name": "Dark Row 2",
+              "width": "fill_container",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "mnKNJ",
+                  "name": "Dark Card: Loop",
+                  "width": "fill_container",
+                  "fill": "#292524",
+                  "cornerRadius": 12,
+                  "stroke": "#44403C",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gF9xT",
+                      "name": "Category",
+                      "fill": "#A8A29F",
+                      "content": "PRODUCT · 2026",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "B41Rxo",
+                      "name": "Title",
+                      "fill": "#F5F5F4",
+                      "content": "Loop",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "s0p3X4",
+                      "name": "Description",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "A small social app for tracking shared habits with friends, from idea to shipped MVP in six weeks.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "O6DRB",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "nWsvq",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lkRDM",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "React Native",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "A7dRZC",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "b1STy8",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "Node.js",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b4lfEF",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wetTD",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "PostgreSQL",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "klUpR",
+                      "name": "View Link",
+                      "fill": "#B09DBF",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "v4sVgT",
+                  "name": "Dark Card: Nimbus",
+                  "width": "fill_container",
+                  "fill": "#292524",
+                  "cornerRadius": 12,
+                  "stroke": "#44403C",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Cn8eV",
+                      "name": "Category",
+                      "fill": "#A8A29F",
+                      "content": "PRODUCTION · 2025",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "f8yaTT",
+                      "name": "Title",
+                      "fill": "#F5F5F4",
+                      "content": "Nimbus",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 20,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "swxXK",
+                      "name": "Description",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Internal dashboard rebuild for a logistics client — real-time fleet tracking and route optimization.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 15,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "JDTEM",
+                      "name": "Chips",
+                      "width": "fill_container",
+                      "gap": 8,
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "GIxqH",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Wt21B",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "React",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yX7gk",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "sn9IX",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "TypeScript",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eDEMI",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "xSZfc",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "WebSockets",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ribuL",
+                          "name": "Chip",
+                          "cornerRadius": 99,
+                          "stroke": "#44403C",
+                          "strokeWidth": 1,
+                          "padding": [
+                            4,
+                            10
+                          ],
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "k7RMC2",
+                              "name": "Chip Label",
+                              "fill": "#A8A29F",
+                              "content": "Mapbox",
+                              "fontFamily": "$font-body",
+                              "fontSize": 12,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "eccRO",
+                      "name": "View Link",
+                      "fill": "#B09DBF",
+                      "content": "View project →",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "HfG26",
+      "x": 3510,
+      "y": 0,
+      "name": "Fieldnote Case Study",
+      "clip": true,
+      "width": 1440,
+      "height": 2400,
+      "fill": "$bg",
+      "layout": "vertical",
+      "padding": [
+        60,
+        120
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "bzbz3",
+          "name": "Back Link",
+          "fill": "$accent",
+          "content": "← Back to work",
+          "fontFamily": "$font-body",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "IZYqS",
+          "name": "Meta Block",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            40,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "ygE3O",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Z7MiOw",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Client:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "yrpQX",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "Agricultural NGO (name withheld — fictional/dummy project)",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "vLUIz",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "bBKYM",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Role:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "fS8GO",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "Solo full-stack developer",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "lu6Ya",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "wgIUq",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Timeline:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "oRGiQ",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "6 weeks, 2025",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V9H0yU",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "K706aa",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Stack:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IBMWR",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "Next.js, Supabase, Tailwind, PWA",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "jb5BE",
+              "name": "Dummy Note",
+              "opacity": 0.6,
+              "fill": "$text-secondary",
+              "content": "Dummy project for design/flow testing — swapped for a real case study later.",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "JQhoC",
+          "name": "Divider",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "PqdB9",
+          "name": "Headline",
+          "fill": "$text-primary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Data collection that doesn’t need a signal",
+          "lineHeight": 1.15,
+          "fontFamily": "$font-headline",
+          "fontSize": 40,
+          "fontWeight": "600",
+          "letterSpacing": -0.01
+        },
+        {
+          "type": "frame",
+          "id": "kaekw",
+          "name": "Brief Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "jF2GW",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE BRIEF",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "tLJKo",
+              "name": "Brief Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "Field officers were logging crop and livelihood data on paper in areas with little to no mobile signal, then re-entering everything by hand once back at the regional office — slow, error-prone, and losing real-time visibility into the field.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "K0YRbS",
+          "name": "Before Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "XSrlB",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "BEFORE / AFTER",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "frame",
+              "id": "zJf7H",
+              "name": "Compare Row",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DpP1e",
+                  "name": "Before Column",
+                  "width": "fill_container",
+                  "fill": "$card-bg",
+                  "cornerRadius": 8,
+                  "stroke": "$border-subtle",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MKDSB",
+                      "name": "Before Label",
+                      "fill": "$text-secondary",
+                      "content": "BEFORE",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "gCWWa",
+                      "name": "Before Text",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Paper forms, re-entered later, ~2 week data lag",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Tf9xz",
+                  "name": "After Column",
+                  "width": "fill_container",
+                  "fill": "$card-bg",
+                  "cornerRadius": 8,
+                  "stroke": "$accent",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "mxWkn",
+                      "name": "After Label",
+                      "fill": "$accent",
+                      "content": "AFTER",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "iJS1S",
+                      "name": "After Text",
+                      "fill": "$text-primary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Offline-first PWA, synced automatically when signal returns",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ALOWP",
+          "name": "Constraint Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "Q1HHS",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE CONSTRAINT",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "rge3S",
+              "name": "Constraint Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "This shaped every decision: the app had to work fully offline, sync conflicts had to resolve automatically (field officers never manually merge data), and the UI had to work for officers with minimal smartphone experience — large touch targets, plain language, no jargon.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "mQKrg",
+          "name": "Interaction Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "TLaMq",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE INTERACTION",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "LaTIN",
+              "name": "Interaction Intro",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "A small demo of the offline-first pattern. Flip the connection toggle to see how the app behaves without signal.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "uTRCM",
+              "name": "Demo Card",
+              "width": 480,
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "SgyMh",
+                  "name": "Toggle Row",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ln0sl",
+                      "name": "Toggle Prompt",
+                      "fill": "$text-primary",
+                      "content": "Try it — flip your connection.",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "kR1PN",
+                      "name": "Toggle Track",
+                      "width": 56,
+                      "height": 28,
+                      "fill": "$text-secondary",
+                      "cornerRadius": 99,
+                      "padding": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "fQFcd",
+                          "name": "Toggle Knob",
+                          "fill": "$bg",
+                          "width": 22,
+                          "height": 22
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "OSvIi",
+                  "name": "Status Row",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "pxHG4",
+                      "name": "Status Label",
+                      "fill": "$text-secondary",
+                      "content": "Status:",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "a8w5yv",
+                      "name": "Status Value",
+                      "fill": "$accent",
+                      "content": "Offline",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "k2GTK",
+                  "name": "Form Card",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nPTic",
+                      "name": "Form Label",
+                      "fill": "$text-secondary",
+                      "content": "CROP REPORT",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "voWPF",
+                      "name": "Form Field",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r8fedF",
+                          "name": "Field Value",
+                          "fill": "$text-primary",
+                          "content": "Crop type: Maize",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "yof2e",
+                      "name": "Sync Badge",
+                      "fill": "#B09DBF26",
+                      "cornerRadius": 6,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "O0nY7w",
+                          "name": "Badge Text",
+                          "fill": "$accent",
+                          "content": "Saved locally — will sync",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "J7zXf2",
+          "name": "Iteration Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ktIpm",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "ITERATION",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "iyMsR",
+              "name": "Iteration Intro",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "Three iterations before shipping. Each one stripped away complexity until the form felt invisible.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "zzqME",
+              "name": "Iteration Deck",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "m12CX0",
+                  "name": "Slide: v1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "v9EbBN",
+                      "name": "Screenshot Placeholder",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": "$card-bg",
+                      "cornerRadius": 8,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "EykG3",
+                          "name": "Placeholder Label",
+                          "opacity": 0.5,
+                          "fill": "$text-secondary",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "Jh4CH",
+                      "name": "Slide Title",
+                      "fill": "$text-primary",
+                      "content": "v1 — Too many fields per screen",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "dVKRv",
+                      "name": "Slide Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Officers abandoned forms halfway through. Cognitive overload killed completion rates.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "jx8ib",
+                  "name": "Slide: v2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "kYJHD",
+                      "name": "Screenshot Placeholder",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": "$card-bg",
+                      "cornerRadius": 8,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Ov8kN",
+                          "name": "Placeholder Label",
+                          "opacity": 0.5,
+                          "fill": "$text-secondary",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "X8Wuhv",
+                      "name": "Slide Title",
+                      "fill": "$text-primary",
+                      "content": "v2 — Simplified to one question at a time",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "tc245",
+                      "name": "Slide Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Completion improved, but navigation felt slow. Officers wanted to see progress.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "uW7EK",
+                  "name": "Slide: v3 — shipped",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l4Pwex",
+                      "name": "Screenshot Placeholder",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": "$card-bg",
+                      "cornerRadius": 8,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Vg6ZN",
+                          "name": "Placeholder Label",
+                          "opacity": 0.5,
+                          "fill": "$text-secondary",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "CM4lj",
+                      "name": "Slide Title",
+                      "fill": "$text-primary",
+                      "content": "v3 — shipped — Grouped into short sections with progress dots",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "zbcwn",
+                      "name": "Slide Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The sweet spot. Short enough to feel quick, structured enough to feel complete.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "RXLDk",
+          "name": "Testimonial Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "qKcha",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE REACTION",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "frame",
+              "id": "kxfY1",
+              "name": "Quote Card",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "p3tvCk",
+                  "name": "Quote Text",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "“Officers stopped calling to ask if their reports ‘went through.’ They just know it works now.”",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-headline",
+                  "fontSize": 22,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "ITkXD",
+                  "name": "Quote Attribution",
+                  "fill": "$text-secondary",
+                  "content": "— Program Coordinator (fictional)",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GEq2W",
+          "name": "Closing Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "k3vXxe",
+              "name": "Closing Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "Fieldnote reinforced something I keep coming back to: design for constraint, not for the best-case network. The best tools aren't the ones with the most features — they're the ones that work when everything else doesn't.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "SjAQP",
+              "name": "Divider",
+              "fill": "$border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "c9PGY",
+              "name": "Next Link",
+              "fill": "$accent",
+              "content": "Next project → Loop",
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "AT237",
+      "x": 5030,
+      "y": 0,
+      "name": "Fieldnote Case Study - Dark",
+      "clip": true,
+      "width": 1440,
+      "height": 2400,
+      "fill": "#1C1917",
+      "layout": "vertical",
+      "padding": [
+        60,
+        120
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "UlMc7",
+          "name": "Back Link",
+          "fill": "#B09DBF",
+          "content": "← Back to work",
+          "fontFamily": "$font-body",
+          "fontSize": 14,
+          "fontWeight": "normal"
+        },
+        {
+          "type": "frame",
+          "id": "p4NYZH",
+          "name": "Meta Block",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            40,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "L9ptH9",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ab2q8",
+                  "name": "Meta Label",
+                  "fill": "#A8A29F",
+                  "content": "Client:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "y2Ggig",
+                  "name": "Meta Value",
+                  "fill": "#F5F5F4",
+                  "content": "Agricultural NGO (name withheld — fictional/dummy project)",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RmfmM",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "hscJ9",
+                  "name": "Meta Label",
+                  "fill": "#A8A29F",
+                  "content": "Role:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ce5u7",
+                  "name": "Meta Value",
+                  "fill": "#F5F5F4",
+                  "content": "Solo full-stack developer",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WKPpE",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ryba8",
+                  "name": "Meta Label",
+                  "fill": "#A8A29F",
+                  "content": "Timeline:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ksEB6",
+                  "name": "Meta Value",
+                  "fill": "#F5F5F4",
+                  "content": "6 weeks, 2025",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "pljPh",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "gap": 12,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xny3f",
+                  "name": "Meta Label",
+                  "fill": "#A8A29F",
+                  "content": "Stack:",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "xH9Mn",
+                  "name": "Meta Value",
+                  "fill": "#F5F5F4",
+                  "content": "Next.js, Supabase, Tailwind, PWA",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "Cf7BQ",
+              "name": "Dummy Note",
+              "opacity": 0.6,
+              "fill": "#A8A29F",
+              "content": "Dummy project for design/flow testing — swapped for a real case study later.",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "KEPBW",
+          "name": "Divider",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "eLu8u",
+          "name": "Headline",
+          "fill": "#F5F5F4",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Data collection that doesn’t need a signal",
+          "lineHeight": 1.15,
+          "fontFamily": "$font-headline",
+          "fontSize": 40,
+          "fontWeight": "600",
+          "letterSpacing": -0.01
+        },
+        {
+          "type": "frame",
+          "id": "Y8ZMRj",
+          "name": "Brief Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "b9uMl",
+              "name": "Section Label",
+              "fill": "#A8A29F",
+              "content": "THE BRIEF",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "gICI6",
+              "name": "Brief Text",
+              "fill": "#F5F5F4",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "Field officers were logging crop and livelihood data on paper in areas with little to no mobile signal, then re-entering everything by hand once back at the regional office — slow, error-prone, and losing real-time visibility into the field.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gwwtK",
+          "name": "Before Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ZaXiD",
+              "name": "Section Label",
+              "fill": "#A8A29F",
+              "content": "BEFORE / AFTER",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "frame",
+              "id": "m7HqR",
+              "name": "Compare Row",
+              "width": "fill_container",
+              "gap": 40,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "EnEzN",
+                  "name": "Before Column",
+                  "width": "fill_container",
+                  "fill": "#292524",
+                  "cornerRadius": 8,
+                  "stroke": "#44403C",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "jTWoV",
+                      "name": "Before Label",
+                      "fill": "#A8A29F",
+                      "content": "BEFORE",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "zLdPi",
+                      "name": "Before Text",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Paper forms, re-entered later, ~2 week data lag",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "QqOud",
+                  "name": "After Column",
+                  "width": "fill_container",
+                  "fill": "#292524",
+                  "cornerRadius": 8,
+                  "stroke": "#B09DBF",
+                  "strokeWidth": 1,
+                  "layout": "vertical",
+                  "gap": 8,
+                  "padding": 24,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "bG3Ft",
+                      "name": "After Label",
+                      "fill": "#B09DBF",
+                      "content": "AFTER",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 0.06
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZVLql",
+                      "name": "After Text",
+                      "fill": "#F5F5F4",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Offline-first PWA, synced automatically when signal returns",
+                      "lineHeight": 1.6,
+                      "fontFamily": "$font-body",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "GR3r6",
+          "name": "Constraint Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "hihQP",
+              "name": "Section Label",
+              "fill": "#A8A29F",
+              "content": "THE CONSTRAINT",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "OmSWc",
+              "name": "Constraint Text",
+              "fill": "#F5F5F4",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "This shaped every decision: the app had to work fully offline, sync conflicts had to resolve automatically (field officers never manually merge data), and the UI had to work for officers with minimal smartphone experience — large touch targets, plain language, no jargon.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "LO9Dd",
+          "name": "Interaction Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "zwNQE",
+              "name": "Section Label",
+              "fill": "#A8A29F",
+              "content": "THE INTERACTION",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "AhNUm",
+              "name": "Interaction Intro",
+              "fill": "#F5F5F4",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "A small demo of the offline-first pattern. Flip the connection toggle to see how the app behaves without signal.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "s4alFI",
+              "name": "Demo Card",
+              "width": 480,
+              "fill": "#292524",
+              "cornerRadius": 12,
+              "stroke": "#44403C",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 20,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "BBafV",
+                  "name": "Toggle Row",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "AGOmt",
+                      "name": "Toggle Prompt",
+                      "fill": "#F5F5F4",
+                      "content": "Try it — flip your connection.",
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "qO5l3",
+                      "name": "Toggle Track",
+                      "width": 56,
+                      "height": 28,
+                      "fill": "$text-secondary",
+                      "cornerRadius": 99,
+                      "padding": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "XRJN5",
+                          "name": "Toggle Knob",
+                          "fill": "#1C1917",
+                          "width": 22,
+                          "height": 22
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "ALIMy",
+                  "name": "Status Row",
+                  "width": "fill_container",
+                  "gap": 8,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "B3iIY9",
+                      "name": "Status Label",
+                      "fill": "#A8A29F",
+                      "content": "Status:",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "r2PIh",
+                      "name": "Status Value",
+                      "fill": "#B09DBF",
+                      "content": "Offline",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "McKSR",
+                  "name": "Form Card",
+                  "width": "fill_container",
+                  "fill": "#1C1917",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 12,
+                  "padding": 16,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "OFApE",
+                      "name": "Form Label",
+                      "fill": "#A8A29F",
+                      "content": "CROP REPORT",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ZO2GZ",
+                      "name": "Form Field",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "stroke": "#44403C",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "q60Pl",
+                          "name": "Field Value",
+                          "fill": "#F5F5F4",
+                          "content": "Crop type: Maize",
+                          "fontFamily": "$font-body",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "a5TkZ",
+                      "name": "Sync Badge",
+                      "fill": "#B09DBF26",
+                      "cornerRadius": 6,
+                      "gap": 6,
+                      "padding": [
+                        6,
+                        10
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "VTkIi",
+                          "name": "Badge Text",
+                          "fill": "#B09DBF",
+                          "content": "Saved locally — will sync",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v6lDV",
+          "name": "Iteration Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "hHQnK",
+              "name": "Section Label",
+              "fill": "#A8A29F",
+              "content": "ITERATION",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "Lc9Dm",
+              "name": "Iteration Intro",
+              "fill": "#F5F5F4",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "Three iterations before shipping. Each one stripped away complexity until the form felt invisible.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "NlXSP",
+              "name": "Iteration Deck",
+              "width": "fill_container",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x5etC",
+                  "name": "Slide: v1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "e7zx9",
+                      "name": "Screenshot Placeholder",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": "#292524",
+                      "cornerRadius": 8,
+                      "stroke": "#44403C",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "TdAOI",
+                          "name": "Placeholder Label",
+                          "opacity": 0.5,
+                          "fill": "#A8A29F",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "yoL9D",
+                      "name": "Slide Title",
+                      "fill": "#F5F5F4",
+                      "content": "v1 — Too many fields per screen",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "z9tp0j",
+                      "name": "Slide Caption",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Officers abandoned forms halfway through. Cognitive overload killed completion rates.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "XCXXV",
+                  "name": "Slide: v2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "g35UL",
+                      "name": "Screenshot Placeholder",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": "#292524",
+                      "cornerRadius": 8,
+                      "stroke": "#44403C",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "CuQ9d",
+                          "name": "Placeholder Label",
+                          "opacity": 0.5,
+                          "fill": "#A8A29F",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "tgzC7",
+                      "name": "Slide Title",
+                      "fill": "#F5F5F4",
+                      "content": "v2 — Simplified to one question at a time",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Nq2GE",
+                      "name": "Slide Caption",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Completion improved, but navigation felt slow. Officers wanted to see progress.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "oK3jO",
+                  "name": "Slide: v3 — shipped",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 12,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Q98P1g",
+                      "name": "Screenshot Placeholder",
+                      "width": "fill_container",
+                      "height": 200,
+                      "fill": "#292524",
+                      "cornerRadius": 8,
+                      "stroke": "#44403C",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "g2r3i",
+                          "name": "Placeholder Label",
+                          "opacity": 0.5,
+                          "fill": "#A8A29F",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "VPVlY",
+                      "name": "Slide Title",
+                      "fill": "#F5F5F4",
+                      "content": "v3 — shipped — Grouped into short sections with progress dots",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 16,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OJyZu",
+                      "name": "Slide Caption",
+                      "fill": "#A8A29F",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The sweet spot. Short enough to feel quick, structured enough to feel complete.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "t0vKTW",
+          "name": "Testimonial Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "IPdW6",
+              "name": "Section Label",
+              "fill": "#A8A29F",
+              "content": "THE REACTION",
+              "fontFamily": "$font-body",
+              "fontSize": 13,
+              "fontWeight": "normal",
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "frame",
+              "id": "RahjT",
+              "name": "Quote Card",
+              "width": "fill_container",
+              "fill": "#292524",
+              "cornerRadius": 12,
+              "stroke": "#44403C",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Fc2Uy",
+                  "name": "Quote Text",
+                  "fill": "#F5F5F4",
+                  "textGrowth": "fixed-width",
+                  "width": 720,
+                  "content": "“Officers stopped calling to ask if their reports ‘went through.’ They just know it works now.”",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-headline",
+                  "fontSize": 22,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "Qpa2r",
+                  "name": "Quote Attribution",
+                  "fill": "#A8A29F",
+                  "content": "— Program Coordinator (fictional)",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "vYPi0",
+          "name": "Closing Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 20,
+          "padding": [
+            48,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "K41G0",
+              "name": "Closing Text",
+              "fill": "#F5F5F4",
+              "textGrowth": "fixed-width",
+              "width": 720,
+              "content": "Fieldnote reinforced something I keep coming back to: design for constraint, not for the best-case network. The best tools aren't the ones with the most features — they're the ones that work when everything else doesn't.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "rectangle",
+              "id": "o3Vghd",
+              "name": "Divider",
+              "fill": "$border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "dV01N",
+              "name": "Next Link",
+              "fill": "#B09DBF",
+              "content": "Next project → Loop",
+              "fontFamily": "$font-body",
+              "fontSize": 15,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "TZHzD",
+      "x": 6550,
+      "y": 0,
+      "name": "Fieldnote Case Study - Mobile",
+      "clip": true,
+      "width": 390,
+      "height": 3200,
+      "fill": "#FAFAF9",
+      "layout": "vertical",
+      "padding": [
+        48,
+        24
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "FMweE",
+          "name": "Back Link",
+          "fill": "$accent",
+          "content": "← Back to work",
+          "fontFamily": "$font-body",
+          "fontSize": 14
+        },
+        {
+          "type": "frame",
+          "id": "vr1kA",
+          "name": "Meta Block",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "padding": [
+            32,
+            0
+          ],
+          "children": [
+            {
+              "type": "frame",
+              "id": "At1NW",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "de1wu",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Client",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "rVewn",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "Agricultural NGO (name withheld — fictional/dummy project)",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "SxWdf",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "grk8O",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Role",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "C9O5wo",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "Solo full-stack developer",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "GoVJH",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jckh1",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Timeline",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "C1ZfC",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "6 weeks, 2025",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "hdNYV",
+              "name": "Meta Row",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 2,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "I0mBm1",
+                  "name": "Meta Label",
+                  "fill": "$text-secondary",
+                  "content": "Stack",
+                  "fontFamily": "$font-body",
+                  "fontSize": 12
+                },
+                {
+                  "type": "text",
+                  "id": "gkRQu",
+                  "name": "Meta Value",
+                  "fill": "$text-primary",
+                  "content": "Next.js, Supabase, Tailwind, PWA",
+                  "fontFamily": "$font-body",
+                  "fontSize": 14
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "ccbZX",
+              "name": "Dummy Note",
+              "opacity": 0.6,
+              "fill": "$text-secondary",
+              "content": "Dummy project for design/flow testing — swapped for a real case study later.",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "fontStyle": "italic"
+            }
+          ]
+        },
+        {
+          "type": "rectangle",
+          "id": "OnoKo",
+          "name": "Divider",
+          "fill": "$border-subtle",
+          "width": "fill_container",
+          "height": 1
+        },
+        {
+          "type": "text",
+          "id": "eMKI1",
+          "name": "Headline",
+          "fill": "$text-primary",
+          "textGrowth": "fixed-width",
+          "width": "fill_container",
+          "content": "Data collection that doesn’t need a signal",
+          "lineHeight": 1.15,
+          "fontFamily": "$font-headline",
+          "fontSize": 32,
+          "fontWeight": "600",
+          "letterSpacing": -0.01
+        },
+        {
+          "type": "frame",
+          "id": "uC9HD",
+          "name": "Brief Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "r7wzi",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE BRIEF",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "n83oW",
+              "name": "Brief Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Field officers were logging crop and livelihood data on paper in areas with little to no mobile signal, then re-entering everything by hand once back at the regional office — slow, error-prone, and losing real-time visibility into the field.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "d6xwAg",
+          "name": "Before Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "azDBC",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "BEFORE / AFTER",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "frame",
+              "id": "NkB7q",
+              "name": "Before Card",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 8,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "xixgd",
+                  "name": "Label",
+                  "fill": "$text-secondary",
+                  "content": "BEFORE",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "letterSpacing": 0.06
+                },
+                {
+                  "type": "text",
+                  "id": "fSyqi",
+                  "name": "Text",
+                  "fill": "$text-secondary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Paper forms, re-entered later, ~2 week data lag",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-body",
+                  "fontSize": 15
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WMGfZ",
+              "name": "After Card",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 8,
+              "stroke": "$accent",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "CWZAO",
+                  "name": "Label",
+                  "fill": "$accent",
+                  "content": "AFTER",
+                  "fontFamily": "$font-body",
+                  "fontSize": 11,
+                  "letterSpacing": 0.06
+                },
+                {
+                  "type": "text",
+                  "id": "YZl9O",
+                  "name": "Text",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "Offline-first PWA, synced automatically when signal returns",
+                  "lineHeight": 1.6,
+                  "fontFamily": "$font-body",
+                  "fontSize": 15
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pXNPI",
+          "name": "Constraint Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 10,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "jgWU8",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE CONSTRAINT",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "NrCiG",
+              "name": "Constraint Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "This shaped every decision: the app had to work fully offline, sync conflicts had to resolve automatically (field officers never manually merge data), and the UI had to work for officers with minimal smartphone experience — large touch targets, plain language, no jargon.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 16
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c32O4i",
+          "name": "Interaction Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "o9OPkB",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE INTERACTION",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "zo9aA",
+              "name": "Interaction Intro",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "A small demo of the offline-first pattern.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "MpaRS",
+              "name": "Demo Card",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 16,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "KmNjg",
+                  "name": "Toggle Row",
+                  "width": "fill_container",
+                  "justifyContent": "space_between",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "RVwkx",
+                      "name": "Toggle Prompt",
+                      "fill": "$text-primary",
+                      "content": "Flip your connection.",
+                      "fontFamily": "$font-body",
+                      "fontSize": 13,
+                      "fontWeight": "500"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "pgJvH",
+                      "name": "Toggle Track",
+                      "width": 50,
+                      "height": 26,
+                      "fill": "$text-secondary",
+                      "cornerRadius": 99,
+                      "padding": 3,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "ellipse",
+                          "id": "Y0EIY",
+                          "name": "Knob",
+                          "fill": "$bg",
+                          "width": 20,
+                          "height": 20
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Yx5rA",
+                  "name": "Status",
+                  "width": "fill_container",
+                  "gap": 6,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "D12Heu",
+                      "name": "Label",
+                      "fill": "$text-secondary",
+                      "content": "Status:",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12
+                    },
+                    {
+                      "type": "text",
+                      "id": "ZwAbQ",
+                      "name": "Value",
+                      "fill": "$accent",
+                      "content": "Offline",
+                      "fontFamily": "$font-body",
+                      "fontSize": 12,
+                      "fontWeight": "500"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Z3odL",
+                  "name": "Form",
+                  "width": "fill_container",
+                  "fill": "$bg",
+                  "cornerRadius": 8,
+                  "layout": "vertical",
+                  "gap": 10,
+                  "padding": 14,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "GObHi",
+                      "name": "Form Label",
+                      "fill": "$text-secondary",
+                      "content": "CROP REPORT",
+                      "fontFamily": "$font-body",
+                      "fontSize": 11
+                    },
+                    {
+                      "type": "frame",
+                      "id": "m1UkC",
+                      "name": "Field",
+                      "width": "fill_container",
+                      "cornerRadius": 6,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "padding": [
+                        10,
+                        12
+                      ],
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "r8MLF",
+                          "name": "Value",
+                          "fill": "$text-primary",
+                          "content": "Crop type: Maize",
+                          "fontFamily": "$font-body",
+                          "fontSize": 13
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "WP4K9",
+                      "name": "Sync Badge",
+                      "fill": "#B09DBF26",
+                      "cornerRadius": 6,
+                      "padding": [
+                        5,
+                        8
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "lMMtT",
+                          "name": "Badge Text",
+                          "fill": "$accent",
+                          "content": "Saved locally — will sync",
+                          "fontFamily": "$font-body",
+                          "fontSize": 11,
+                          "fontWeight": "500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kTX6A",
+          "name": "Iteration Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "TsAst",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "ITERATION",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "text",
+              "id": "OfJxa",
+              "name": "Iteration Intro",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Three iterations before shipping.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 16
+            },
+            {
+              "type": "frame",
+              "id": "SVT1x",
+              "name": "Iteration Deck",
+              "width": "fill_container",
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "x0iyb5",
+                  "name": "Slide: v1",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "iuzXZ",
+                      "name": "Placeholder",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": "$card-bg",
+                      "cornerRadius": 8,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "T29wD",
+                          "name": "Label",
+                          "opacity": 0.5,
+                          "fill": "$text-secondary",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "vIrS2",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "v1 — Too many fields per screen",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OMfba",
+                      "name": "Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Officers abandoned forms halfway through.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "F7XS3B",
+                  "name": "Slide: v2",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O3RR2x",
+                      "name": "Placeholder",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": "$card-bg",
+                      "cornerRadius": 8,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "Qu9Lg",
+                          "name": "Label",
+                          "opacity": 0.5,
+                          "fill": "$text-secondary",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "sWazL",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "v2 — One question at a time",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kbPO9",
+                      "name": "Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "Completion improved, but navigation felt slow.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "xm6ES",
+                  "name": "Slide: v3 — shipped",
+                  "width": "fill_container",
+                  "layout": "vertical",
+                  "gap": 10,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "oCcYF",
+                      "name": "Placeholder",
+                      "width": "fill_container",
+                      "height": 160,
+                      "fill": "$card-bg",
+                      "cornerRadius": 8,
+                      "stroke": "$border-subtle",
+                      "strokeWidth": 1,
+                      "layout": "vertical",
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZbexA",
+                          "name": "Label",
+                          "opacity": 0.5,
+                          "fill": "$text-secondary",
+                          "content": "Screenshot placeholder",
+                          "fontFamily": "$font-body",
+                          "fontSize": 12
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "XZXLo",
+                      "name": "Title",
+                      "fill": "$text-primary",
+                      "content": "v3 — shipped — Short sections with progress dots",
+                      "fontFamily": "$font-headline",
+                      "fontSize": 15,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "x9Y6h",
+                      "name": "Caption",
+                      "fill": "$text-secondary",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "The sweet spot. Quick enough to feel fast, structured enough to feel complete.",
+                      "lineHeight": 1.5,
+                      "fontFamily": "$font-body",
+                      "fontSize": 13
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "G4OoR",
+          "name": "Testimonial Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 12,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "X9uden",
+              "name": "Section Label",
+              "fill": "$text-secondary",
+              "content": "THE REACTION",
+              "fontFamily": "$font-body",
+              "fontSize": 12,
+              "letterSpacing": 0.06
+            },
+            {
+              "type": "frame",
+              "id": "YU8oG",
+              "name": "Quote Card",
+              "width": "fill_container",
+              "fill": "$card-bg",
+              "cornerRadius": 12,
+              "stroke": "$border-subtle",
+              "strokeWidth": 1,
+              "layout": "vertical",
+              "gap": 12,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "phyB9",
+                  "name": "Quote Text",
+                  "fill": "$text-primary",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "“Officers stopped calling to ask if their reports ‘went through.’ They just know it works now.”",
+                  "lineHeight": 1.4,
+                  "fontFamily": "$font-headline",
+                  "fontSize": 18,
+                  "fontWeight": "600",
+                  "fontStyle": "italic"
+                },
+                {
+                  "type": "text",
+                  "id": "gRpZ8",
+                  "name": "Attribution",
+                  "fill": "$text-secondary",
+                  "content": "— Program Coordinator (fictional)",
+                  "fontFamily": "$font-body",
+                  "fontSize": 13
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "JPtZq",
+          "name": "Closing Section",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            36,
+            0
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "ERQzE",
+              "name": "Closing Text",
+              "fill": "$text-primary",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Fieldnote reinforced something I keep coming back to: design for constraint, not for the best-case network. The best tools aren't the ones with the most features — they're the ones that work when everything else doesn't.",
+              "lineHeight": 1.7,
+              "fontFamily": "$font-body",
+              "fontSize": 16
+            },
+            {
+              "type": "rectangle",
+              "id": "tejIO",
+              "name": "Divider",
+              "fill": "$border-subtle",
+              "width": "fill_container",
+              "height": 1
+            },
+            {
+              "type": "text",
+              "id": "QCLYA",
+              "name": "Next Link",
+              "fill": "$accent",
+              "content": "Next project → Loop",
+              "fontFamily": "$font-body",
+              "fontSize": 14,
+              "fontWeight": "500"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "mode": [
+      "light",
+      "dark"
+    ]
+  },
+  "variables": {
+    "bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FAFAF9",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#1C1917",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#292524",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#F5F5F4",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#78716C",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#A8A29F",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "cta-fill": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7D6B8A",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#B09DBF",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "cta-text": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#292524",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "font-headline": {
+      "type": "string",
+      "value": "Fraunces"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Source Serif 4"
+    },
+    "card-bg": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#292524",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "border-subtle": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E5E4",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#44403C",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "border-strong": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#A8A29E",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#78716C",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    },
+    "accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#7D6B8A",
+          "theme": {
+            "mode": "light"
+          }
+        },
+        {
+          "value": "#B09DBF",
+          "theme": {
+            "mode": "dark"
+          }
+        }
+      ]
+    }
+  },
+  "fileToken": "726b5046-832d-41de-b75e-654abfd54344"
+}
