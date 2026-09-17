@@ -6,10 +6,8 @@ export default function Page() {
   return (
     <main className="flex min-h-screen flex-col bg-background text-foreground relative tracking-widest overflow-x-hidden">
       <Navbar />
-      <div className="flex flex-col px-[8%]">
-        <Hero />
-        <About />
-      </div>
+      <Hero />
+      <About />
     </main>
   )
 }
