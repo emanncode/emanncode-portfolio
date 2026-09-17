@@ -184,6 +184,10 @@
   --sidebar-ring: oklch(0.724 0.053 310.1);
 }
 
+.bg-emann {
+  background-image: url(/me.jpg);
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
