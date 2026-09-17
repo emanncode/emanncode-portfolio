@@ -1,13 +1,13 @@
 "use client"
 
 import { useRef } from "react"
-import { MoveRight } from "lucide-react"
 import { GithubIcon } from "@/components/ui/github"
 import { TwitterIcon } from "@/components/ui/twitter"
 import { LinkedinIcon } from "@/components/ui/linkedin"
 import { LinktreeIcon } from "@/components/ui/linktree"
 import { WhatsappIcon } from "@/components/ui/whatsapp"
 import { EmailIcon } from "@/components/ui/email"
+import { ArrowRightIcon } from "@/components/ui/arrow-right"
 import TechStackMarquee from "@/components/tech-stack-marquee"
 
 interface IconHandle {
@@ -58,9 +58,9 @@ function SocialPill({ link, label, Icon }: SocialLinkItem) {
       rel="noopener noreferrer"
       onMouseEnter={() => iconRef.current?.startAnimation()}
       onMouseLeave={() => iconRef.current?.stopAnimation()}
-      className="flex items-center gap-2 rounded-full border border-muted-foreground px-10 py-5 font-sans text-xl italic text-muted-foreground transition-all duration-300 hover:scale-105 hover:border-foreground hover:text-foreground"
+      className="flex items-center gap-2 rounded-full border border-muted-foreground/50 px-5 py-3 font-sans text-sm italic text-muted-foreground transition-all duration-300 hover:scale-105 hover:border-foreground hover:text-foreground sm:px-7 sm:py-4 sm:text-lg xl:px-10 xl:py-5 xl:text-xl"
     >
-      <Icon ref={iconRef} size={28} className="text-foreground" />
+      <Icon ref={iconRef} size={20} className="text-foreground sm:size-6 xl:size-7" />
       <span>{label}</span>
     </a>
   )
@@ -68,42 +68,40 @@ function SocialPill({ link, label, Icon }: SocialLinkItem) {
 
 export default function Hero() {
   return (
-    <div className="relative z-0 flex min-h-[calc(100vh-90px)] flex-col justify-between pt-16">
-      <div className="flex flex-col -space-y-22">
-        <div className="flex justify-between items-center">
-          <h1 className="text-[165px] ">
+    <div className="relative z-0 flex min-h-[calc(100vh-90px)] flex-col justify-between pt-10 sm:pt-16 px-[8%]">
+      <div className="flex flex-col gap-6 lg:gap-0">
+        <div className="flex flex-col items-center justify-between gap-6 lg:flex-row">
+          <h1 className="text-center text-5xl leading-tight sm:text-6xl md:text-7xl lg:text-center lg:text-[110px] lg:leading-none xl:text-[130px] 2xl:text-[165px]">
             Full-stack
           </h1>
           <div className="flex items-center">
-            <h1 className="rounded-full bg-foreground px-45 py-5 font-sans text-2xl text-background italic">
+            <h1 className="rounded-full bg-foreground px-5 py-2.5 font-sans text-base text-background italic sm:px-10 sm:py-4 sm:text-xl lg:px-20 lg:py-5 lg:text-2xl">
               Projects
             </h1>
-            <div className="rounded-full bg-foreground p-5 text-background">
-              <MoveRight size={28} />
-            </div>
+            <ArrowRightIcon size={28} className="rounded-full bg-foreground p-5 text-background rotate-90" />
           </div>
         </div>
-        <div className="flex justify-between items-center">
-          <p className="text-[16px] text-muted-foreground max-w-xl leading-10">
+        <div className="flex flex-col items-center justify-between gap-6 lg:-mt-7 lg:flex-row">
+          <p className="max-w-xl text-center text-sm leading-7 text-muted-foreground sm:leading-10 lg:text-left lg:text-[16px]">
             I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code
           </p>
-          <h1 className="text-[165px]">
+          <h1 className="text-center text-5xl leading-tight sm:text-6xl md:text-7xl lg:text-[110px] lg:leading-none xl:text-[130px] 2xl:text-[165px]">
             Engineer
           </h1>
         </div>
       </div>
-      <div className="flex gap-34 items-center justify-center pt-9">
-        <div className="justify-center flex gap-4 items-center">
+      <div className="flex flex-col flex-wrap items-center justify-center gap-4 pt-9 lg:flex-row lg:gap-8 xl:gap-34">
+        <div className="flex flex-wrap justify-center gap-4 items-center">
           {links.map((link) => (
             <SocialPill key={link.label} {...link} />
           ))}
         </div>
-        <div className="justify-center flex gap-4 items-center">
+        <div className="flex flex-wrap justify-center gap-4 items-center">
           {links2.map((link) => (
             <SocialPill key={link.label} {...link} />
           ))}
         </div>
-        <div className="justify-center flex gap-4 items-center">
+        <div className="flex flex-wrap justify-center gap-4 items-center">
           {links3.map((link) => (
             <SocialPill key={link.label} {...link} />
           ))}
