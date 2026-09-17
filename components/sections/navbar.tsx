@@ -41,8 +41,8 @@ export default function Navbar() {
   }, [])
 
   return (
-    <nav className="relative top-0 z-50 backdrop-blur-2xl">
-      <span className="border border-muted-foreground w-78 rounded-full aspect-square absolute -right-13 -top-15 z-0"></span>
+    <nav className="relative">
+      <span className="border border-muted-foreground/50 w-78 rounded-full aspect-square absolute -right-13 -top-15 z-0"></span>
       {/* Brand / Logo */}
       <div className="flex items-center justify-between px-[8%] py-4 font-sans font-normal tracking-[0.15em] sm:py-5 relative">
         <a href="/" className="transition-transform duration-200 hover:scale-105">
@@ -63,7 +63,7 @@ export default function Navbar() {
               <div key={link.href}>
                 <a
                   href={link.href}
-                  className="inline-flex items-center transition-all duration-230 hover:text-foreground font-semibold "
+                  className="inline-flex items-center transition-all duration-230 hover:text-foreground text-muted-foreground font-semibold "
                 >
                   <span className="mr-0.5 font-mono font-bold text-primary select-none">
                     ../
@@ -125,7 +125,7 @@ export default function Navbar() {
                 <div key={link.href}>
                   <a
                     href={link.href}
-                    className="inline-flex items-center transition-all duration-230 hover:text-foreground font-semibold text-foreground"
+                    className="inline-flex items-center transition-all duration-230 hover:text-foreground text-muted-foreground font-semibold"
                   >
                     <span className="mr-0.5 font-mono font-bold select-none">
                       ../

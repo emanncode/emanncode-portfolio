@@ -110,7 +110,7 @@ function StackCard({ item, variant }: StackCardProps) {
         "relative flex shrink-0 items-center gap-4 rounded-full px-6 py-4 select-none pointer-events-none transition-none",
         isResume
           ? "border-2 border-foreground bg-foreground text-background"
-          : "border border-muted-foreground bg-transparent text-muted-foreground "
+          : "border border-muted-foreground/50 bg-transparent text-muted-foreground "
       )}
     >
       {/* Invisible protective overlay div covering the whole card */}
