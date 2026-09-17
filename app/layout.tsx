@@ -1,3 +1,4 @@
+import type { Metadata } from "next"
 import { Fraunces, Source_Serif_4 } from "next/font/google"
 import "./globals.css"
 
@@ -15,15 +16,25 @@ const sourceSerif = Source_Serif_4({
   display: "swap",
 })
 
+export const metadata: Metadata = {
+  title: "Ifeoluwa Olajubaje | EmannCode Full Stack Engineer",
+  description: "EmannCode Portfolio.",
+}
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html
+      lang="en"
+      className="dark"
+      style={{ colorScheme: "dark" }}
+      suppressHydrationWarning
+    >
       <body
-        className={`${fraunces.variable} ${sourceSerif.variable} antialiased`}
+        className={`${fraunces.variable} ${sourceSerif.variable} min-h-screen bg-background text-[16px] text-foreground antialiased selection:bg-primary/25 selection:text-primary`}
       >
         {children}
       </body>
