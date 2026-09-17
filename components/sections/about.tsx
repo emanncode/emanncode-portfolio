@@ -1,5 +1,13 @@
 "use client"
 
+import { GithubIcon } from "@/components/ui/github"
+import { ArrowRightIcon } from "@/components/ui/arrow-right"
+
+interface IconHandle {
+  startAnimation: () => void
+  stopAnimation: () => void
+}
+
 export default function About() {
     return (
         <section id="about" className="min-h-[90vh] pt-30 relative">
@@ -14,15 +22,17 @@ export default function About() {
                 <div className="flex flex-col gap-8">
                     <div className="bg-foreground text-background rounded-[29px] py-5 px-8 flex gap-4 flex-col">
                         <h1 className="text-[22px] font-bold">Front-end</h1>
-                        <p className="max-w-135 font-semibold italic">Typescript / React / Vue/ VueX / NextJs / Redux Toolkit / Nuxt / React Native</p>
+                        <p className="max-w-135 font-medium italic">Typescript / React / Vue/ VueX / NextJs / Redux Toolkit / Nuxt / React Native</p>
                     </div>
-                    <div className="flex justify-between">
+                    <div className="flex justify-between items-center">
                         <div className="border-muted-foreground border rounded-[29px] py-5 px-8 flex gap-4 flex-col">
-                            d
+                            <h1 className="text-[22px] font-bold">Styles</h1>
+                            <p className="max-w-63 font-medium italic">SCSS / SASS / POSTCSS / MUI / Material UI</p>
                         </div>
-                            <div className="border-muted-foreground border rounded-[29px] py-3 px-8 flex gap-4 flex-col">
-                                d
-                            </div>
+                        <div className="flex -space-x-6">
+                            <GithubIcon className="border-muted-foreground border rounded-full p-5" />
+                            <ArrowRightIcon size={28} className="rounded-full bg-foreground p-5 text-background -rotate-45" />
+                        </div>
                     </div>
                     <div>bycnuco</div>
                     <div>bycnuco</div>

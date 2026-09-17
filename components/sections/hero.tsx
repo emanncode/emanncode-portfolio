@@ -78,8 +78,8 @@ export default function Hero() {
             <h1 className="rounded-full bg-foreground px-45 py-5 font-sans text-2xl text-background italic">
               Projects
             </h1>
-            <div className="rounded-full bg-foreground p-5 font-sans text-2xl text-background italic">
-              <MoveRight size={25} />
+            <div className="rounded-full bg-foreground p-5 text-background">
+              <MoveRight size={28} />
             </div>
           </div>
         </div>
