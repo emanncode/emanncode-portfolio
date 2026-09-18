@@ -49,7 +49,7 @@ export default function About() {
                         </div>
                         <div className="border-muted-foreground/50 border rounded-[29px] py-5 px-8 flex gap-4 flex-col">
                             <h1 className="text-[22px] font-bold">Back-end & Database</h1>
-                            <p className="max-w-145 font-medium italic">GoLang / Gin / PostgreSQL/ MySQL / MongoDB / Node / PHP / Microservices / Supabase / REST APIs</p>
+                            <p className="max-w-145 font-medium italic">GoLang / Gin / GORM / PostgreSQL/ MySQL / MongoDB / Node / PHP / Microservices / Supabase / REST APIs</p>
                         </div>
                     </div>
                     <div className="flex">
