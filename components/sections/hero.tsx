@@ -87,7 +87,7 @@ const SocialPill = forwardRef<IconHandle, SocialPillProps>(
           size={20}
           className="text-foreground shrink-0 sm:size-5 lg:size-6 xl:size-7"
         />
-        <span className="hidden sm:inline-block font-sans text-xs italic tracking-wider sm:text-sm lg:text-base xl:text-xl ml-2">
+        <span className="hidden sm:inline-block font-sans text-xs italic tracking-widest sm:text-sm lg:text-base xl:text-xl ml-2">
           {label}
         </span>
       </a>
@@ -137,49 +137,49 @@ export default function Hero() {
   }, [])
 
   return (
-    <div className="relative z-0 flex min-h-[70vh] sm:min-h-[75vh] lg:min-h-[calc(100vh-90px)] flex-col justify-between pt-6 sm:pt-10 lg:pt-14 px-[8%]">
+    <div className="relative z-0 flex min-h-[65vh] sm:min-h-[72vh] lg:min-h-[calc(100vh-90px)] flex-col justify-between pt-6 sm:pt-10 lg:pt-14 px-[8%]">
       {/* Mobile & Tablet (< lg): Title, Tablet Projects button, and Paragraph centered */}
       <div className="flex flex-col items-center text-center lg:hidden">
-        <h1 className="text-5xl font-normal tracking-wider sm:text-6xl md:text-7xl font-heading">
+        <h1 className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading leading-tight">
           Full-stack
         </h1>
-        <h1 className="text-5xl font-normal tracking-wider sm:text-6xl md:text-7xl font-heading mt-1 sm:mt-2">
+        <h1 className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading mt-1 sm:mt-2 leading-tight">
           Engineer
         </h1>
 
         {/* Paragraph under title */}
-        <p className="mt-5 max-w-lg text-center text-xs leading-relaxed text-muted-foreground sm:text-sm sm:leading-7 md:text-base">
+        <p className="mt-4 sm:mt-5 max-w-lg text-center text-base leading-relaxed sm:leading-7 text-muted-foreground">
           I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code
         </p>
       </div>
 
       {/* Desktop (lg+): Editorial Split Layout */}
-      <div className="hidden lg:flex flex-col -space-y-12 xl:-space-y-14">
+      <div className="hidden lg:flex flex-col gap-4 xl:gap-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-[105px] tracking-widest leading-none xl:text-[130px] 2xl:text-[160px] font-heading">
+          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-normal xl:tracking-wide leading-none font-heading">
             Full-stack
           </h1>
           <div className="flex items-center">
-            <h1 className="rounded-full bg-foreground px-12 py-3.5 xl:px-16 xl:py-4 2xl:px-20 2xl:py-5 font-sans text-lg xl:text-xl 2xl:text-2xl tracking-widest text-background italic">
+            <h1 className="rounded-full bg-foreground px-8 py-2.5 xl:px-14 xl:py-3.5 2xl:px-18 2xl:py-4.5 font-sans text-base xl:text-xl 2xl:text-2xl tracking-widest text-background italic">
               Projects
             </h1>
-            <div className="rounded-full bg-foreground p-3.5 xl:p-4 2xl:p-5 font-sans text-background italic -ml-1">
-              <ArrowRightIcon size={24} className="rotate-90" />
+            <div className="rounded-full bg-foreground p-2.5 xl:p-3.5 2xl:p-4.5 font-sans text-background italic -ml-1">
+              <ArrowRightIcon size={20} className="rotate-90" />
             </div>
           </div>
         </div>
-        <div className="flex items-center justify-between gap-8 mt-10">
-          <p className="max-w-md xl:max-w-xl text-left text-sm leading-8 xl:text-base xl:leading-10 text-muted-foreground font-sans">
+        <div className="flex items-center justify-between gap-6 xl:gap-8">
+          <p className="max-w-sm xl:max-w-lg 2xl:max-w-xl text-left text-base leading-relaxed xl:leading-8 text-muted-foreground font-sans">
             I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code
           </p>
-          <h1 className="text-[105px] tracking-widest leading-none xl:text-[130px] 2xl:text-[160px] font-heading">
+          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-normal xl:tracking-wide leading-none font-heading">
             Engineer
           </h1>
         </div>
       </div>
 
-      {/* Social Links: Scattered circular icons on mobile, compact pills on tablet, full pills on desktop */}
-      <div className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 lg:gap-6 xl:gap-8 pt-6 sm:pt-8 my-auto">
+      {/* Social Links: Scattered circular icons on mobile (balanced 3+3), compact pills on tablet, full pills on desktop */}
+      <div className="flex flex-wrap items-center justify-center gap-3.5 sm:gap-4 lg:gap-5 xl:gap-7 pt-4 sm:pt-6 lg:pt-8 my-auto max-w-80 sm:max-w-none mx-auto">
         {socialLinks.map((link, index) => (
           <SocialPill
             key={link.label}
