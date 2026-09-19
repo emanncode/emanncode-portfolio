@@ -16,12 +16,12 @@ export function BackToTop({ initialVisible = false }: BackToTopProps) {
 
   useEffect(() => {
     const getHeroThreshold = () => {
-      // Find the about section or default to 75% of viewport height
+      // Find the about section or default to 15% of viewport height
       const aboutSection = document.getElementById("about")
       if (aboutSection) {
         return aboutSection.offsetTop - 120
       }
-      return window.innerHeight * 0.75
+      return window.innerHeight * 0.15
     }
 
     const handleScroll = () => {
@@ -53,7 +53,7 @@ export function BackToTop({ initialVisible = false }: BackToTopProps) {
         if (window.scrollY > getHeroThreshold()) {
           setIsVisible(true)
         }
-      }, 3000)
+      }, 100)
 
       lastScrollY.current = currentScrollY
     }
