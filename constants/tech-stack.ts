@@ -2,12 +2,6 @@ import type { TechStackItem } from "@/types/tech-stack"
 
 export const STACK: TechStackItem[] = [
   {
-    name: "React",
-    icon: "/tech-icons/react.svg",
-    color: "#61DAFB",
-    blurb: "Component-driven UIs for web and mobile",
-  },
-  {
     name: "Next.js",
     icon: "/tech-icons/nextjs.svg",
     color: "#E5E5E5",
@@ -56,6 +50,12 @@ export const STACK: TechStackItem[] = [
     color: "#FFFFFF",
     blurb: "Zero-config deployments and serverless edge hosting",
     darkInvert: true,
+  },
+  {
+    name: "React",
+    icon: "/tech-icons/react.svg",
+    color: "#61DAFB",
+    blurb: "Component-driven UIs for web and mobile",
   },
   {
     name: "Vue",
