@@ -1,100 +1,11 @@
 "use client"
 
-import { forwardRef, useEffect, useImperativeHandle, useRef } from "react"
-import { GithubIcon } from "@/components/ui/github"
-import { TwitterIcon } from "@/components/ui/twitter"
-import { LinkedinIcon } from "@/components/ui/linkedin"
-import { LinktreeIcon } from "@/components/ui/linktree"
-import { WhatsappIcon } from "@/components/ui/whatsapp"
-import { EmailIcon } from "@/components/ui/email"
-import { ArrowRightIcon } from "@/components/ui/arrow-right"
+import { useEffect, useRef } from "react"
+import { SocialPill } from "@/components/ui/social-pill"
+import { ProjectsButton } from "@/components/ui/projects-button"
 import TechStackMarquee from "@/components/tech-stack-marquee"
-import { cn } from "@/lib/utils"
-
-interface IconHandle {
-  startAnimation: () => void
-  stopAnimation: () => void
-}
-
-interface SocialLinkItem {
-  link: string
-  label: string
-  Icon: React.ComponentType<{
-    ref?: React.Ref<IconHandle>
-    size?: number
-    className?: string
-  }>
-}
-
-const socialLinks: SocialLinkItem[] = [
-  { link: "https://x.com/emanncode", label: "Twitter", Icon: TwitterIcon },
-  {
-    link: "https://www.linkedin.com/in/emmanuel-olajubaje-86178a42a/",
-    label: "LinkedIn",
-    Icon: LinkedinIcon,
-  },
-  {
-    link: "https://github.com/emanncode",
-    label: "Github",
-    Icon: GithubIcon,
-  },
-  { link: "https://linktr.ee/emanncodedev", label: "Linktree", Icon: LinktreeIcon },
-  { link: "https://wa.me/2349048801668", label: "Whatsapp", Icon: WhatsappIcon },
-  { link: "mailto:olajubajeifeoluwa93@gmail.com", label: "Email", Icon: EmailIcon },
-]
-
-interface SocialPillProps extends SocialLinkItem {
-  index: number
-}
-
-const SocialPill = forwardRef<IconHandle, SocialPillProps>(
-  ({ link, label, Icon, index }, ref) => {
-    const localRef = useRef<IconHandle>(null)
-
-    useImperativeHandle(ref, () => ({
-      startAnimation: () => localRef.current?.startAnimation(),
-      stopAnimation: () => localRef.current?.stopAnimation(),
-    }))
-
-    // Organic scattered offsets on mobile view
-    const mobileScatteredClasses = [
-      "-translate-y-1.5 rotate-[-3deg]",
-      "translate-y-2 rotate-[2deg]",
-      "-translate-y-1 rotate-[4deg]",
-      "translate-y-1.5 rotate-[-2deg]",
-      "-translate-y-2 rotate-[-4deg]",
-      "translate-y-1 rotate-[3deg]",
-    ]
-
-    return (
-      <a
-        href={link}
-        target="_blank"
-        rel="noopener noreferrer"
-        onMouseEnter={() => localRef.current?.startAnimation()}
-        onMouseLeave={() => localRef.current?.stopAnimation()}
-        className={cn(
-          // Mobile: scattered circular icon pills; Tablet: compact icon+label; Laptop/Desktop: large pill
-          "flex items-center justify-center rounded-full border border-muted-foreground/40 transition-all duration-300",
-          "h-12 w-12 sm:h-auto sm:w-auto p-2.5 sm:px-4 sm:py-2 md:px-5 md:py-2.5 lg:px-7 lg:py-3.5 xl:px-9 xl:py-4",
-          "text-muted-foreground hover:border-foreground hover:text-foreground hover:scale-105 active:scale-95",
-          "sm:transform-none",
-          mobileScatteredClasses[index % mobileScatteredClasses.length]
-        )}
-      >
-        <Icon
-          ref={localRef}
-          size={20}
-          className="text-foreground shrink-0 sm:size-5 lg:size-6 xl:size-7"
-        />
-        <span className="hidden sm:inline-block font-sans text-xs italic tracking-widest sm:text-sm lg:text-base xl:text-xl ml-2">
-          {label}
-        </span>
-      </a>
-    )
-  }
-)
-SocialPill.displayName = "SocialPill"
+import { socialLinks } from "@/constants/social-links"
+import type { IconHandle } from "@/types/social"
 
 export default function Hero() {
   const iconRefs = useRef<(IconHandle | null)[]>([])
@@ -147,6 +58,11 @@ export default function Hero() {
           Engineer
         </h1>
 
+        {/* Projects button: Tablet only (hidden completely on mobile view) */}
+        <div className="hidden sm:flex lg:hidden items-center mt-4">
+          <ProjectsButton variant="tablet" />
+        </div>
+
         {/* Paragraph under title */}
         <p className="mt-4 sm:mt-5 max-w-lg text-center text-base leading-relaxed sm:leading-7 text-muted-foreground">
           I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code
@@ -156,23 +72,16 @@ export default function Hero() {
       {/* Desktop (lg+): Editorial Split Layout */}
       <div className="hidden lg:flex flex-col gap-4 xl:gap-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-normal xl:tracking-wide leading-none font-heading">
+          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading">
             Full-stack
           </h1>
-          <div className="flex items-center">
-            <h1 className="rounded-full bg-foreground px-8 py-2.5 xl:px-14 xl:py-3.5 2xl:px-18 2xl:py-4.5 font-sans text-base xl:text-xl 2xl:text-2xl tracking-widest text-background italic">
-              Projects
-            </h1>
-            <div className="rounded-full bg-foreground p-2.5 xl:p-3.5 2xl:p-4.5 font-sans text-background italic -ml-1">
-              <ArrowRightIcon size={20} className="rotate-90" />
-            </div>
-          </div>
+          <ProjectsButton variant="desktop" />
         </div>
         <div className="flex items-center justify-between gap-6 xl:gap-8">
-          <p className="max-w-sm xl:max-w-lg 2xl:max-w-xl text-left text-base leading-relaxed xl:leading-8 text-muted-foreground font-sans">
-            I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code
+          <p className="max-w-lg xl:max-w-xl 2xl:max-w-2xl text-left text-2xl leading-relaxed xl:leading-8 text-muted-foreground font-sans">
+            I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code.
           </p>
-          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-normal xl:tracking-wide leading-none font-heading">
+          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading">
             Engineer
           </h1>
         </div>
