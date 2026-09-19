@@ -1,13 +1,15 @@
 import About from "@/components/sections/about"
 import Hero from "@/components/sections/hero"
 import Navbar from "@/components/sections/navbar"
+import { BackToTop } from "@/components/ui/back-to-top"
 
 export default function Page() {
   return (
-    <main className="flex min-h-screen flex-col bg-background text-foreground relative tracking-widest overflow-x-hidden">
+    <main className="flex min-h-screen flex-col relative tracking-wider overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />
+      <BackToTop />
     </main>
   )
 }
