@@ -71,7 +71,7 @@ export default function About() {
           </div>
 
           {/* Right Column: Profile Image */}
-          <div className="flex w-full lg:w-95 xl:w-110 2xl:w-125 shrink-0">
+          <div className="flex w-full lg:w-100 xl:w-110 2xl:w-125 shrink-0">
             <AboutImage />
           </div>
         </div>
