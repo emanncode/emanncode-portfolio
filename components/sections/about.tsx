@@ -2,6 +2,7 @@
 
 import { SkillCard } from "@/components/ui/skill-card"
 import { GithubPill } from "@/components/ui/github-pill"
+import { AboutImage } from "@/components/ui/about-image"
 import { skillsData } from "@/constants/skills"
 import Work from "@/components/sections/work"
 
@@ -71,7 +72,7 @@ export default function About() {
 
           {/* Right Column: Profile Image */}
           <div className="flex w-full lg:w-95 xl:w-110 2xl:w-125 shrink-0">
-            <div className="relative w-full h-80 sm:h-105 lg:h-full min-h-80 sm:min-h-100 lg:min-h-130 bg-blend-luminosity bg-emann bg-center bg-cover bg-no-repeat bg-primary rounded-3xl sm:rounded-4xl shadow-xl border border-border/30" />
+            <AboutImage />
           </div>
         </div>
       </div>
