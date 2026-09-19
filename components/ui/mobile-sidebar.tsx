@@ -45,7 +45,7 @@ export function MobileSidebar({
       {/* Slide-out Sidebar Panel */}
       <aside
         className={cn(
-          "fixed inset-y-0 right-0 z-50 flex h-full w-full max-w-[340px] sm:max-w-[420px] flex-col justify-between bg-background border-l border-border/40 p-8 sm:p-10 shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] lg:hidden",
+          "fixed inset-y-0 right-0 z-50 flex h-full w-full max-w-85 sm:max-w-105 flex-col justify-between bg-background border-l border-border/40 p-8 sm:p-10 shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] lg:hidden",
           isOpen ? "translate-x-0" : "translate-x-full pointer-events-none"
         )}
         aria-label="Mobile Navigation"
@@ -92,10 +92,10 @@ export function MobileSidebar({
           </div>
 
           <p className="font-mono text-[11px] sm:text-xs tracking-[0.22em] text-muted-foreground uppercase font-medium">
-            FRONTEND &amp; MOBILE ENGINEER
+            FULLSTACK ENGINEER
           </p>
           <p className="font-sans text-xs sm:text-sm text-muted-foreground/80 leading-relaxed">
-            React · Next.js · Vue · React Native · PHP · MySQL
+            React · Next.js · Vue · React Native · PHP · MySQL · GO · PostgreSQL
           </p>
         </div>
       </aside>
