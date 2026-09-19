@@ -35,7 +35,7 @@ export function MobileSidebar({
       {/* Backdrop */}
       <div
         className={cn(
-          "fixed inset-0 z-40 bg-black/70 backdrop-blur-sm transition-opacity duration-300 lg:hidden",
+          "fixed inset-0 z-40 bg-black/70 backdrop-blur-sm transition-opacity duration-300 xl:hidden",
           isOpen ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
         )}
         onClick={onClose}
@@ -45,7 +45,7 @@ export function MobileSidebar({
       {/* Slide-out Sidebar Panel */}
       <aside
         className={cn(
-          "fixed inset-y-0 right-0 z-50 flex h-full w-full max-w-85 sm:max-w-105 flex-col justify-between bg-background border-l border-border/40 p-8 sm:p-10 shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] lg:hidden",
+          "fixed inset-y-0 right-0 z-50 flex h-full w-full max-w-85 sm:max-w-105 flex-col justify-between bg-background border-l border-border/40 p-8 sm:p-10 shadow-2xl transition-transform duration-500 ease-[cubic-bezier(0.16,1,0.3,1)] xl:hidden",
           isOpen ? "translate-x-0" : "translate-x-full pointer-events-none"
         )}
         aria-label="Mobile Navigation"

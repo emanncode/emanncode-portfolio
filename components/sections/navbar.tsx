@@ -49,7 +49,7 @@ export default function Navbar() {
         </a>
 
         {/* Desktop Links */}
-        <div className="hidden items-center gap-8 px-3 text-lg lg:flex xl:gap-10 xl:text-xl">
+        <div className="hidden items-center gap-8 px-3 text-lg xl:flex xl:gap-10 xl:text-xl">
           {navLinks.map((link) => (
             <div key={link.href}>
               <a
@@ -75,7 +75,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setIsMobileMenuOpen(true)}
-            className="flex cursor-pointer items-center justify-center rounded-lg p-2 text-foreground transition-colors hover:bg-muted/50 lg:hidden"
+            className="flex cursor-pointer items-center justify-center rounded-lg p-2 text-foreground transition-colors hover:bg-muted/50 xl:hidden"
             aria-label="Open menu"
             aria-expanded={isMobileMenuOpen}
           >
