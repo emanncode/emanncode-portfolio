@@ -13,24 +13,24 @@ export function WorkRow({ work }: WorkRowProps) {
           <p className="text-base sm:text-lg lg:text-xl font-medium tracking-normal text-foreground group-hover:text-background transition-colors duration-300">
             {work.date}
           </p>
-          <p className="font-sans italic text-xs sm:text-sm text-muted-foreground group-hover:text-background/70 transition-colors duration-300">
+          <p className="italic text-xs sm:text-sm text-muted-foreground group-hover:text-background/70 transition-colors duration-300">
             {work.time}
           </p>
         </div>
 
         {/* Column 2: Company */}
         <div className="md:col-span-4 lg:col-span-4">
-          <p className="text-2xl sm:text-3xl lg:text-4xl font-heading font-bold tracking-tight text-foreground group-hover:text-background transition-colors duration-300">
+          <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-foreground group-hover:text-background transition-colors duration-300">
             {work.company}
-          </p>
+          </h3>
         </div>
 
         {/* Column 3: Role & Tech Stack */}
         <div className="flex flex-col md:items-end md:text-right gap-1 md:col-span-5 lg:col-span-5">
-          <p className="text-lg sm:text-xl lg:text-2xl font-semibold text-foreground group-hover:text-background transition-colors duration-300">
+          <h3 className="text-lg sm:text-xl lg:text-2xl font-semibold text-foreground group-hover:text-background transition-colors duration-300">
             {work.position}
-          </p>
-          <p className="font-sans italic text-xs sm:text-sm lg:text-base text-muted-foreground group-hover:text-background/70 transition-colors duration-300">
+          </h3>
+          <p className="italic text-xs sm:text-sm lg:text-base text-muted-foreground group-hover:text-background/70 transition-colors duration-300">
             {work.lang}
           </p>
         </div>

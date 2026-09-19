@@ -20,12 +20,12 @@ export function SkillCard({
         className
       )}
     >
-      <h3 className="text-xl sm:text-[22px] font-bold font-heading">{title}</h3>
+      <h3 className="text-xl sm:text-[22px] font-bold">{title}</h3>
       <p
         className={cn(
           "font-medium italic text-sm sm:text-base leading-relaxed font-sans",
           isSolid ? "text-background" : "text-muted-foreground",
-          textClassName || "max-w-xl"
+          textClassName || "max-w-145"
         )}
       >
         {technologies}

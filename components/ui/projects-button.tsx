@@ -25,7 +25,7 @@ export function ProjectsButton({
       onMouseEnter={() => arrowRef.current?.startAnimation()}
       onMouseLeave={() => arrowRef.current?.stopAnimation()}
       className={cn(
-        "inline-flex items-center group transition-transform duration-300 hover:scale-105 active:scale-95",
+        "inline-flex items-center group transition-transform duration-300",
         className
       )}
     >

@@ -52,7 +52,7 @@ export default function Hero() {
       {/* Mobile & Tablet (< lg): Title, Tablet Projects button, and Paragraph centered */}
       <div className="flex flex-col items-center text-center lg:hidden">
         <h1 className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading leading-tight">
-          Full-stack
+          Front-end
         </h1>
         <h1 className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading mt-1 sm:mt-2 leading-tight">
           Engineer
@@ -73,7 +73,7 @@ export default function Hero() {
       <div className="hidden lg:flex flex-col gap-4 xl:gap-2">
         <div className="flex items-center justify-between">
           <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading">
-            Full-stack
+            Front-end
           </h1>
           <ProjectsButton variant="desktop" />
         </div>

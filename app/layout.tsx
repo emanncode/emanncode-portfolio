@@ -17,7 +17,7 @@ const sourceSerif = Source_Serif_4({
 })
 
 export const metadata: Metadata = {
-  title: "Ifeoluwa Olajubaje | EmannCode Full Stack Engineer",
+  title: "Ifeoluwa Olajubaje | Front-end Engineer",
   description: "EmannCode Portfolio.",
 }
 

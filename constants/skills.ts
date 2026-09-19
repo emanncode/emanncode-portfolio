@@ -19,7 +19,7 @@ export const skillsData: SkillCardItem[] = [
     id: "backend",
     title: "Back-end & Database",
     technologies:
-      "GoLang / Gin / GORM / PostgreSQL / MySQL / MongoDB / Node / PHP / Microservices / Supabase / REST APIs",
+      "GoLang / Gin / GORM / PostgreSQL / PHP / MySQL / MongoDB / Microservices / Supabase / REST APIs / Node",
     variant: "outline",
     textClassName: "max-w-xl",
   },

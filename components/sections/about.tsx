@@ -12,7 +12,7 @@ export default function About() {
   const backendSkill = skillsData.find((s) => s.id === "backend")
 
   return (
-    <section id="about" className="relative min-h-screen pt-16 sm:pt-20 ga-6 lg:pt-28 overflow-hidden">
+    <section id="about" className="relative min-h-screen pt-16 sm:pt-20 gap-6 lg:pt-28 overflow-hidden">
       {/* Decorative background circle */}
       <span className="pointer-events-none absolute -right-24 sm:-right-36 lg:-right-40 -top-10 w-72 sm:w-96 lg:w-170 aspect-square rounded-full border border-muted-foreground/30 opacity-40 z-0" />
 
@@ -20,11 +20,11 @@ export default function About() {
         {/* Section Header */}
         <div className="relative z-10 flex flex-col md:gap-18 lg:flex-row lg:items-start lg:justify-between gap-6">
           <h2 className="font-semibold text-2xl sm:text-3xl text-foreground shrink-0">
-            .../About me ...
+            ... /About me ...
           </h2>
           <p className="text-muted-foreground max-w-150 text-base sm:text-lg lg:text-[18px] leading-relaxed sm:leading-10 font-sans">
             Hello, I&apos;m Ifeoluwa Olajubaje,{" "}
-            <span className="text-foreground italic font-medium">a full-stack engineer.</span>{" "}
+            <span className="text-foreground italic font-medium">a front-end engineer.</span>{" "}
             3 years as a developer,{" "}
             <span className="text-foreground italic font-medium">1 year</span> of experience in{" "}
             <span className="text-foreground italic font-medium">building as an engineer</span>

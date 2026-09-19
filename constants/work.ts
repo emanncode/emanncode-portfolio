@@ -10,10 +10,10 @@ export const Works: WorkItem[] = [
   },
   {
     date: "11/2025 — Present",
-    time: "8months",
+    time: "10months",
     company: "Rouvoo",
     position: "Fullstack Engineer",
-    lang: "React / PHP / MySQL",
+    lang: "React / Typescript / PHP / MySQL",
   },
   {
     date: "04/2025 — 12/2025",
