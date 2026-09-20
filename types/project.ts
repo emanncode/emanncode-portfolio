@@ -4,6 +4,9 @@ export type ProjectId =
   | "ifesquare"
   | "filmritz"
   | "attendance-system"
+  | "gostar"
+  | "kana-master"
+  | "anime-sentry"
   | string
 
 export type PreviewType =
@@ -36,4 +39,5 @@ export interface ProjectItem {
   customImage?: string
 }
 
+// Compatibility alias
 export type projectItems = ProjectItem
