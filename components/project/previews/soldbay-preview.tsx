@@ -5,9 +5,13 @@ import { LiveDemoButton } from "../live-demo-button"
 
 interface SoldbayPreviewProps {
   prodLink?: string
+  image?: string
 }
 
-export function SoldbayPreview({ prodLink = "https://soldbay.shop" }: SoldbayPreviewProps) {
+export function SoldbayPreview({
+  prodLink = "https://soldbay.shop",
+  image = "/soldbay.png",
+}: SoldbayPreviewProps) {
   return (
     <div className="relative w-full max-w-2xl mx-auto">
       {/* Main Showcase Canvas */}
@@ -35,7 +39,7 @@ export function SoldbayPreview({ prodLink = "https://soldbay.shop" }: SoldbayPre
         {/* Real Project Image inside frame */}
         <div className="relative z-10 rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-stone-950 group">
           <Image
-            src="/soldbay.png"
+            src={image}
             alt="Soldbay Campus Marketplace"
             width={893}
             height={1059}

@@ -17,11 +17,11 @@ interface ProjectPreviewProps {
 export function ProjectPreview({ project }: ProjectPreviewProps) {
   switch (project.previewType) {
     case "soldbay":
-      return <SoldbayPreview prodLink={project.prodLink} />
+      return <SoldbayPreview prodLink={project.prodLink} image={project.image} />
     case "uniflow":
-      return <UniflowPreview prodLink={project.prodLink} />
+      return <UniflowPreview prodLink={project.prodLink} image={project.image} />
     case "ifesquare":
-      return <IfesquarePreview prodLink={project.prodLink} />
+      return <IfesquarePreview prodLink={project.prodLink} image={project.image} />
     case "gostar":
       return <GostarPreview prodLink={project.prodLink} />
     case "kana-master":

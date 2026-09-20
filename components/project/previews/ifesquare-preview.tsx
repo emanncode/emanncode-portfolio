@@ -5,10 +5,12 @@ import { LiveDemoButton } from "../live-demo-button"
 
 interface IfesquarePreviewProps {
   prodLink?: string
+  image?: string
 }
 
 export function IfesquarePreview({
   prodLink = "https://ifesquare.uniflowapp.xyz",
+  image = "/ifesquare.png",
 }: IfesquarePreviewProps) {
   return (
     <div className="relative w-full max-w-2xl mx-auto">
@@ -37,7 +39,7 @@ export function IfesquarePreview({
         {/* Real Project Image inside frame */}
         <div className="relative z-10 rounded-2xl overflow-hidden border border-emerald-500/20 shadow-2xl bg-stone-950 group">
           <Image
-            src="/ifesquare.png"
+            src={image}
             alt="Ifesquare Smart Inventory and Ledger"
             width={893}
             height={1024}

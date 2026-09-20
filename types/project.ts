@@ -37,6 +37,7 @@ export interface ProjectItem {
   align: "left" | "right"
   previewType: PreviewType
   customImage?: string
+  image?: string
 }
 
 // Compatibility alias

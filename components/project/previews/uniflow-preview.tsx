@@ -5,9 +5,13 @@ import { LiveDemoButton } from "../live-demo-button"
 
 interface UniflowPreviewProps {
   prodLink?: string
+  image?: string
 }
 
-export function UniflowPreview({ prodLink = "https://uniflowapp.xyz" }: UniflowPreviewProps) {
+export function UniflowPreview({
+  prodLink = "https://uniflowapp.xyz",
+  image = "/uniflow.png",
+}: UniflowPreviewProps) {
   return (
     <div className="relative w-full max-w-2xl mx-auto">
       {/* Editorial Canvas */}
@@ -35,7 +39,7 @@ export function UniflowPreview({ prodLink = "https://uniflowapp.xyz" }: UniflowP
         {/* Real Project Image inside frame */}
         <div className="relative z-10 rounded-2xl overflow-hidden border border-stone-300 dark:border-stone-700 shadow-2xl bg-stone-950 group">
           <Image
-            src="/uniflow.png"
+            src={image}
             alt="Uniflow Academic Coordination"
             width={893}
             height={1024}

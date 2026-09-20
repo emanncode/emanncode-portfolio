@@ -24,6 +24,7 @@ export const projects: ProjectItem[] = [
     prodLink: "https://soldbay.shop",
     align: "left",
     previewType: "soldbay",
+    image: "/soldbay.png",
   },
   {
     id: "uniflow",
@@ -47,6 +48,7 @@ export const projects: ProjectItem[] = [
     prodLink: "https://uniflowapp.xyz",
     align: "right",
     previewType: "uniflow",
+    image: "/uniflow.png",
   },
   {
     id: "ifesquare",
@@ -68,5 +70,6 @@ export const projects: ProjectItem[] = [
     prodLink: "https://ifesquare.uniflowapp.xyz",
     align: "left",
     previewType: "ifesquare",
+    image: "/ifesquare.png",
   },
 ]
