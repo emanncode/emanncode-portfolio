@@ -92,7 +92,7 @@ export function MobileSidebar({
           </div>
 
           <p className="font-mono text-[11px] sm:text-xs tracking-[0.22em] text-muted-foreground uppercase font-medium">
-            FULLSTACK ENGINEER
+            Front-end ENGINEER
           </p>
           <p className="font-sans text-xs sm:text-sm text-muted-foreground/80 leading-relaxed">
             React · Next.js · Vue · React Native · PHP · MySQL · GO · PostgreSQL
