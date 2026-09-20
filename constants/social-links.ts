@@ -18,8 +18,19 @@ export const socialLinks: SocialLinkItem[] = [
     label: "Github",
     Icon: GithubIcon,
   },
-  { link: "https://linktr.ee/emanncodedev", label: "Linktree", Icon: LinktreeIcon },
-  { link: "https://wa.me/2349048801668", label: "Whatsapp", Icon: WhatsappIcon },
-  { link: "mailto:olajubajeifeoluwa93@gmail.com", label: "Email", Icon: EmailIcon },
+  {
+    link: "https://linktr.ee/emanncodedev",
+    label: "Linktree",
+    Icon: LinktreeIcon,
+  },
+  {
+    link: "https://wa.me/2349048801668",
+    label: "Whatsapp",
+    Icon: WhatsappIcon,
+  },
+  {
+    link: "mailto:olajubajeifeoluwa93@gmail.com",
+    label: "Email",
+    Icon: EmailIcon,
+  },
 ]
-
