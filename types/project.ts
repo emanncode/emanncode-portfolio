@@ -1,4 +1,20 @@
-export type ProjectId = "gostar" | "kana-master" | "anime-sentry" | string
+export type ProjectId =
+  | "soldbay"
+  | "uniflow"
+  | "ifesquare"
+  | "filmritz"
+  | "attendance-system"
+  | string
+
+export type PreviewType =
+  | "soldbay"
+  | "uniflow"
+  | "ifesquare"
+  | "filmritz"
+  | "gostar"
+  | "kana-master"
+  | "anime-sentry"
+  | "custom"
 
 export interface ProjectDescription {
   lead?: string
@@ -16,9 +32,8 @@ export interface ProjectItem {
   gitLink: string
   prodLink?: string
   align: "left" | "right"
-  previewType: "gostar" | "kana-master" | "anime-sentry" | "custom"
+  previewType: PreviewType
   customImage?: string
 }
 
-// Compatibility alias
 export type projectItems = ProjectItem

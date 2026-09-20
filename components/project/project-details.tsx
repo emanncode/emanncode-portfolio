@@ -72,3 +72,4 @@ export function ProjectDetails({ project }: ProjectDetailsProps) {
     </div>
   )
 }
+

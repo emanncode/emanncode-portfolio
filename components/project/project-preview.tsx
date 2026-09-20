@@ -1,6 +1,9 @@
 "use client"
 
 import type { ProjectItem } from "@/types/project"
+import { SoldbayPreview } from "./previews/soldbay-preview"
+import { UniflowPreview } from "./previews/uniflow-preview"
+import { IfesquarePreview } from "./previews/ifesquare-preview"
 import { GostarPreview } from "./previews/gostar-preview"
 import { KanaMasterPreview } from "./previews/kana-master-preview"
 import { AnimeSentryPreview } from "./previews/anime-sentry-preview"
@@ -13,6 +16,12 @@ interface ProjectPreviewProps {
 
 export function ProjectPreview({ project }: ProjectPreviewProps) {
   switch (project.previewType) {
+    case "soldbay":
+      return <SoldbayPreview prodLink={project.prodLink} />
+    case "uniflow":
+      return <UniflowPreview prodLink={project.prodLink} />
+    case "ifesquare":
+      return <IfesquarePreview prodLink={project.prodLink} />
     case "gostar":
       return <GostarPreview prodLink={project.prodLink} />
     case "kana-master":
