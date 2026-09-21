@@ -62,11 +62,11 @@ export default function Contact() {
             </nav>
 
             {/* Site Credit Card matching reference design */}
-            <div className="w-full sm:w-80 rounded-2xl border border-border/40 bg-card/40 p-5 sm:p-6 backdrop-blur-xs mt-6 space-y-3">
-              <p className="font-sans text-xs font-semibold text-foreground tracking-wider">
+            <div className="w-full sm:w-80 rounded-2xl border border-muted-foreground/40 p-5 sm:p-6 backdrop-blur-xs mt-6 space-y-3">
+              <p className="font-sans text-xs sm:text-base font-semibold text-foreground tracking-wider">
                 Site
               </p>
-              <div className="space-y-1 text-xs font-sans text-muted-foreground leading-relaxed">
+              <div className="space-y-1 text-xs sm:text-base font-sans text-muted-foreground leading-relaxed">
                 <p>Handcrafted by ME /</p>
                 <p>Powered by Next.js</p>
               </div>
