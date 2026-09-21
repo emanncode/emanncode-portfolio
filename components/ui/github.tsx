@@ -3,7 +3,6 @@
 import type { Variants } from "motion/react";
 import { motion, useAnimation } from "motion/react";
 import type { HTMLAttributes } from "react";
-import { forwardRef, useCallback, useImperativeHandle, useRef } from "react";
 import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef } from "react";
 
 import { cn } from "@/lib/utils";
@@ -81,9 +80,6 @@ const GithubIcon = forwardRef<GithubIconHandle, GithubIconProps>(
 
       return {
         startAnimation: async () => {
-          bodyControls.start("animate");
-          await tailControls.start("draw");
-          tailControls.start("wag");
           if (!isMounted.current) return;
           try {
             bodyControls.start("animate");
@@ -94,8 +90,6 @@ const GithubIcon = forwardRef<GithubIconHandle, GithubIconProps>(
           } catch {}
         },
         stopAnimation: () => {
-          bodyControls.start("normal");
-          tailControls.start("normal");
           if (!isMounted.current) return;
           try {
             bodyControls.start("normal");
