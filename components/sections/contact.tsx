@@ -1,7 +1,8 @@
 "use client"
 
 import { socialLinks } from "@/constants/social-links"
-import { cn } from "@/lib/utils"
+import { SocialPill } from "@/components/ui/social-pill"
+import { useSequentialIconAnimation } from "@/hooks/use-sequential-icon-animation"
 
 const navItems = [
   { label: "Main", href: "/" },
@@ -11,6 +12,7 @@ const navItems = [
 ]
 
 export default function Contact() {
+  const iconRefs = useSequentialIconAnimation(socialLinks.length)
   return (
     <footer
       id="contact"
@@ -41,9 +43,9 @@ export default function Contact() {
           {/* Right Column: Header, Quick Nav, and Site Card */}
           <div className="w-full lg:w-auto flex flex-col items-start lg:items-end">
             {/* Header */}
-            <span className="font-sans text-xs sm:text-sm tracking-widest text-foreground font-semibold select-none">
+            <h2 className="font-semibold text-2xl sm:text-3xl lg:text-4xl text-foreground shrink-0 tracking-tight">
               ... /Contacts ...
-            </span>
+            </h2>
 
             {/* Quick Navigation Links */}
             <nav
@@ -74,31 +76,20 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Bottom Row: Social Links Pills using existing socialLinks */}
+        {/* Bottom Row: Social Links Pills using reusable SocialPill */}
         <div className="pt-12 sm:pt-16 lg:pt-20">
           <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center justify-between gap-2.5 sm:gap-3.5 lg:gap-4">
-            {socialLinks.map((item) => {
-              const Icon = item.Icon
-              return (
-                <a
-                  key={item.label}
-                  href={item.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={cn(
-                    "flex items-center justify-center rounded-full border border-muted-foreground/40 transition-all duration-300",
-                    "p-2.5 sm:px-4 sm:py-2 md:px-5 md:py-2.5 lg:px-7 lg:py-3.5 xl:px-9 xl:py-4 ",
-                    "text-muted-foreground hover:border-foreground hover:text-foreground hover:scale-105 active:scale-95",
-                    "sm:transform-none",
-                  )}
-                >
-                  <Icon size={20} className="text-foreground shrink-0 sm:size-5 lg:size-6 xl:size-7" />
-                  <span className="sm:inline-block font-sans text-xs italic tracking-wider sm:text-sm lg:text-base xl:text-xl ml-2">
-                    {item.label}
-                  </span>
-                </a>
-              )
-            })}
+            {socialLinks.map((item, index) => (
+              <SocialPill
+                key={item.label}
+                {...item}
+                index={index}
+                variant="footer"
+                ref={(el) => {
+                  iconRefs.current[index] = el
+                }}
+              />
+            ))}
           </div>
         </div>
       </div>

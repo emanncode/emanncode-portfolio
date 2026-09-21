@@ -17,5 +17,7 @@ export interface SocialLinkItem {
 
 export interface SocialPillProps extends SocialLinkItem {
   index: number
+  variant?: "hero" | "footer"
+  className?: string
 }
 

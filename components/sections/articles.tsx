@@ -27,7 +27,7 @@ export default function Articles() {
         <div className="relative w-full rounded-3xl sm:rounded-4xl border border-border/30 bg-card/10 p-6 sm:p-10 lg:p-12 backdrop-blur-xs">
           {/* Header: Pure Articles heading in font-heading right-aligned matching reference */}
           <div className="flex justify-end pb-6 sm:pb-8 border-b border-border/20">
-            <h2 className="font-heading text-4xl sm:text-6xl lg:text-7xl font-semibold tracking-tight text-foreground select-none">
+            <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-[90px] xl:text-[110px] font-heading font-bold tracking-wider leading-none text-foreground select-none">
               Articles
             </h2>
           </div>
