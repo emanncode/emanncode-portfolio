@@ -22,7 +22,7 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
     <div
       onClick={handleCardClick}
       className={cn(
-        "group relative flex flex-col justify-between rounded-3xl border border-border/40 bg-card/40 p-6 sm:p-8 backdrop-blur-xs transition-all duration-300 hover:border-foreground/30 hover:bg-card/70 hover:shadow-xl cursor-pointer min-h-[240px] sm:min-h-[260px]",
+        "group relative flex flex-col justify-between rounded-3xl border border-border/40 bg-card/40 p-6 sm:p-8 backdrop-blur-xs transition-all duration-300 hover:border-foreground/30 hover:bg-card/70 hover:shadow-xl cursor-pointer min-h-[220px] sm:min-h-[240px]",
         className
       )}
     >
@@ -39,31 +39,21 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
         </p>
       </div>
 
-      {/* Bottom Action Row matching reference design */}
+      {/* Bottom Action Row matching reference design exactly */}
       <div className="pt-6 mt-auto">
-        <div className="flex items-center justify-between gap-3">
-          <div className="flex items-center gap-2">
-            {/* Pill button */}
-            <div className="inline-flex items-center gap-2 rounded-full bg-foreground px-4 sm:px-5 py-2 text-xs sm:text-sm font-medium text-background transition-all duration-300 group-hover:bg-foreground/90 select-none shadow-sm">
-              <span className="size-1.5 rounded-full bg-primary" />
-              <span>{article.statusText || "Coming soon"}</span>
-            </div>
-
-            {/* Circular companion button */}
-            <div className="flex size-9 sm:size-10 items-center justify-center rounded-full bg-foreground text-background transition-transform duration-300 group-hover:translate-x-0.5 select-none shadow-sm">
-              <ArrowRight
-                size={16}
-                className="text-background opacity-90 transition-transform duration-300 group-hover:translate-x-0.5"
-              />
-            </div>
+        <div className="flex items-center gap-2">
+          {/* Pill button: white pill matching reference */}
+          <div className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 sm:px-6 py-2 text-xs sm:text-sm font-mono font-medium text-background transition-all duration-300 group-hover:bg-foreground/90 select-none shadow-sm">
+            <span>{article.statusText || "Coming soon"}</span>
           </div>
 
-          {/* Tags */}
-          {article.tags && article.tags.length > 0 && (
-            <span className="hidden sm:inline-block font-mono text-[11px] text-muted-foreground/80">
-              {article.tags[0]}
-            </span>
-          )}
+          {/* Circular companion button with standard Lucide ArrowRight */}
+          <div className="flex size-9 sm:size-10 items-center justify-center rounded-full bg-foreground text-background transition-transform duration-300 group-hover:translate-x-0.5 select-none shadow-sm">
+            <ArrowRight
+              size={16}
+              className="text-background opacity-90 transition-transform duration-300 group-hover:translate-x-0.5"
+            />
+          </div>
         </div>
 
         {/* Temporary notification when user clicks */}
