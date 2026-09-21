@@ -1,6 +1,7 @@
 "use client"
 
 import { socialLinks } from "@/constants/social-links"
+import { cn } from "@/lib/utils"
 
 const navItems = [
   { label: "Main", href: "/" },
@@ -23,15 +24,15 @@ export default function Contact() {
         <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-10 sm:gap-14 lg:gap-16">
           {/* Staggered Name Layout adapted to portfolio heading font */}
           <div className="flex flex-col select-none">
-            <h2 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-semibold tracking-tight text-foreground leading-[0.95]">
+            <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-semibold tracking-tight text-foreground leading-[0.95]">
               Ifeoluwa
             </h2>
             <div className="flex items-baseline gap-3 sm:gap-6 lg:gap-10 mt-1 sm:mt-2">
-              <div className="flex flex-col text-[11px] sm:text-xs md:text-sm font-sans text-muted-foreground leading-tight tracking-wider uppercase shrink-0">
+              <h1 className="flex flex-col text-[11px] sm:text-xs md:text-sm text-muted-foreground leading-tight tracking-wider uppercase shrink-0">
                 <span>Front-end</span>
-                <span>developer</span>
-              </div>
-              <h2 className="font-heading text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-semibold tracking-tight text-foreground/80 leading-[0.95]">
+                <span>Engineer</span>
+              </h1>
+              <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-semibold tracking-tight text-foreground/80 leading-[0.95]">
                 Olajubaje
               </h2>
             </div>
@@ -67,7 +68,6 @@ export default function Contact() {
               </p>
               <div className="space-y-1 text-xs font-sans text-muted-foreground leading-relaxed">
                 <p>Handcrafted by ME /</p>
-                <p>Designed by Taisia /</p>
                 <p>Powered by Next.js</p>
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Contact() {
 
         {/* Bottom Row: Social Links Pills using existing socialLinks */}
         <div className="pt-12 sm:pt-16 lg:pt-20">
-          <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center gap-2.5 sm:gap-3.5 lg:gap-4">
+          <div className="grid grid-cols-2 sm:flex sm:flex-wrap items-center justify-between gap-2.5 sm:gap-3.5 lg:gap-4">
             {socialLinks.map((item) => {
               const Icon = item.Icon
               return (
@@ -85,10 +85,15 @@ export default function Contact() {
                   href={item.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center justify-center sm:justify-start gap-2.5 rounded-full border border-border/40 bg-card/50 px-4 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm font-sans text-muted-foreground shadow-xs transition-all duration-300 hover:border-foreground/40 hover:bg-card hover:text-foreground hover:scale-105 active:scale-95"
+                  className={cn(
+                    "flex items-center justify-center rounded-full border border-muted-foreground/40 transition-all duration-300",
+                    "p-2.5 sm:px-4 sm:py-2 md:px-5 md:py-2.5 lg:px-7 lg:py-3.5 xl:px-9 xl:py-4 ",
+                    "text-muted-foreground hover:border-foreground hover:text-foreground hover:scale-105 active:scale-95",
+                    "sm:transform-none",
+                  )}
                 >
-                  <Icon size={18} className="text-foreground shrink-0" />
-                  <span className="font-sans text-xs italic tracking-wider sm:text-sm">
+                  <Icon size={20} className="text-foreground shrink-0 sm:size-5 lg:size-6 xl:size-7" />
+                  <span className="sm:inline-block font-sans text-xs italic tracking-wider sm:text-sm lg:text-base xl:text-xl ml-2">
                     {item.label}
                   </span>
                 </a>
