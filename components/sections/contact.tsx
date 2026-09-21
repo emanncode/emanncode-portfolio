@@ -114,17 +114,20 @@ export default function Contact() {
       <div className="relative z-10 flex flex-col px-[8%]">
         {/* Main Content: Name on left (desktop), Contacts & Site info on right (desktop) */}
         <div className="flex flex-col-reverse lg:flex-row justify-between items-start gap-10 sm:gap-14 lg:gap-16">
-          {/* Left Column: Big Editorial Name & Role */}
-          <div className="flex flex-col">
-            <h2 className="font-mono text-5xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight text-foreground leading-[0.95] select-none">
+          {/* Staggered Name Layout exactly matching reference design */}
+          <div className="flex flex-col select-none">
+            <h2 className="font-mono text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight text-foreground leading-[0.95]">
               Ifeoluwa
             </h2>
-            <h2 className="font-mono text-5xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight text-foreground/85 leading-[0.95] mt-1 sm:mt-2 select-none">
-              Olajubaje
-            </h2>
-            <p className="text-muted-foreground font-mono text-xs sm:text-sm tracking-widest uppercase mt-4 sm:mt-6">
-              Front-end engineer
-            </p>
+            <div className="flex items-baseline gap-3 sm:gap-6 lg:gap-10 mt-1 sm:mt-2">
+              <div className="flex flex-col text-[10px] sm:text-xs md:text-sm font-mono text-muted-foreground leading-tight tracking-wider uppercase shrink-0">
+                <span>Front-end</span>
+                <span>developer</span>
+              </div>
+              <h2 className="font-mono text-4xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-bold tracking-tight text-foreground/80 leading-[0.95]">
+                Olajubaje
+              </h2>
+            </div>
           </div>
 
           {/* Right Column: Header, Quick Nav, and Site Card */}
@@ -137,7 +140,7 @@ export default function Contact() {
             {/* Quick Navigation Links */}
             <nav
               aria-label="Footer navigation"
-              className="flex flex-wrap items-center gap-6 sm:gap-8 pt-4 sm:pt-5 text-xs sm:text-sm font-sans"
+              className="flex flex-wrap items-center gap-6 sm:gap-8 pt-4 sm:pt-5 text-xs sm:text-sm font-mono"
             >
               {navItems.map((item) => (
                 <a
@@ -158,7 +161,7 @@ export default function Contact() {
               <div className="space-y-1 text-xs font-mono text-muted-foreground leading-relaxed">
                 <p>Handcrafted by ME /</p>
                 <p>Designed by Taisia /</p>
-                <p>Powered by Next.js</p>
+                <p>Powered by NextJs</p>
               </div>
             </div>
           </div>
@@ -175,7 +178,7 @@ export default function Contact() {
                   href={item.href}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="group flex items-center justify-center sm:justify-start gap-2 rounded-full border border-border/40 bg-card/50 px-4 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm font-sans text-muted-foreground shadow-xs transition-all duration-300 hover:border-foreground/40 hover:bg-card hover:text-foreground hover:scale-105 active:scale-95"
+                  className="group flex items-center justify-center sm:justify-start gap-2.5 rounded-full border border-border/40 bg-card/50 px-4 sm:px-5 py-2 sm:py-2.5 text-xs sm:text-sm font-mono text-muted-foreground shadow-xs transition-all duration-300 hover:border-foreground/40 hover:bg-card hover:text-foreground hover:scale-105 active:scale-95"
                 >
                   <Icon className="text-muted-foreground transition-colors group-hover:text-foreground" />
                   <span>{item.label}</span>
