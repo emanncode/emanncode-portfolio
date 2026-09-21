@@ -87,14 +87,14 @@ const GithubIcon = forwardRef<GithubIconHandle, GithubIconProps>(
             if (isMounted.current) {
               tailControls.start("wag");
             }
-          } catch {}
+          } catch { }
         },
         stopAnimation: () => {
           if (!isMounted.current) return;
           try {
             bodyControls.start("normal");
             tailControls.start("normal");
-          } catch {}
+          } catch { }
         },
       };
     });
