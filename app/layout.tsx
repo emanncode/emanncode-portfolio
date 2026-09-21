@@ -1,5 +1,5 @@
 import type { Metadata } from "next"
-import { Fraunces, Source_Serif_4, Space_Mono } from "next/font/google"
+import { Fraunces, Source_Serif_4 } from "next/font/google"
 import "./globals.css"
 
 const fraunces = Fraunces({
@@ -13,13 +13,6 @@ const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
   weight: ["400", "600"],
   variable: "--font-body",
-  display: "swap",
-})
-
-const spaceMono = Space_Mono({
-  subsets: ["latin"],
-  weight: ["400", "700"],
-  variable: "--font-mono",
   display: "swap",
 })
 
@@ -41,7 +34,7 @@ export default function RootLayout({
       suppressHydrationWarning
     >
       <body
-        className={`${fraunces.variable} ${sourceSerif.variable} ${spaceMono.variable} min-h-screen bg-background text-[16px] text-foreground antialiased selection:bg-primary/25 selection:text-primary`}
+        className={`${fraunces.variable} ${sourceSerif.variable} min-h-screen bg-background text-[16px] text-foreground antialiased selection:bg-primary/25 selection:text-primary`}
       >
         {children}
       </body>
