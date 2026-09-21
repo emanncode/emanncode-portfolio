@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import type { ArticleItem } from "@/types/article"
-import { ArrowRightIcon } from "@/components/ui/arrow-right"
+import { ArrowRight, Clock } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 interface ArticleCardProps {
@@ -45,13 +45,16 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
           <div className="flex items-center gap-2">
             {/* Pill button */}
             <div className="inline-flex items-center gap-2 rounded-full bg-foreground px-4 sm:px-5 py-2 text-xs sm:text-sm font-medium text-background transition-all duration-300 group-hover:bg-foreground/90 select-none shadow-sm">
-              <span className="size-1.5 rounded-full bg-primary animate-pulse" />
+              <span className="size-1.5 rounded-full bg-primary" />
               <span>{article.statusText || "Coming soon"}</span>
             </div>
 
             {/* Circular companion button */}
             <div className="flex size-9 sm:size-10 items-center justify-center rounded-full bg-foreground text-background transition-transform duration-300 group-hover:translate-x-0.5 select-none shadow-sm">
-              <ArrowRightIcon size={16} className="text-background opacity-90" />
+              <ArrowRight
+                size={16}
+                className="text-background opacity-90 transition-transform duration-300 group-hover:translate-x-0.5"
+              />
             </div>
           </div>
 
@@ -63,10 +66,11 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
           )}
         </div>
 
-        {/* Temporary toast notification when user clicks */}
+        {/* Temporary notification when user clicks */}
         {showNotice && (
-          <div className="absolute inset-x-4 bottom-4 rounded-xl bg-card border border-border/80 px-3 py-2 text-center text-xs font-mono text-foreground shadow-lg animate-in fade-in zoom-in-95 duration-200 z-30">
-            ⏳ Not available yet — writing in progress. Coming soon!
+          <div className="absolute inset-x-4 bottom-4 flex items-center justify-center gap-2 rounded-xl bg-card border border-border/80 px-3 py-2 text-center text-xs font-mono text-foreground shadow-lg animate-in fade-in zoom-in-95 duration-200 z-30">
+            <Clock size={13} className="text-muted-foreground shrink-0" />
+            <span>Not available yet — writing in progress. Coming soon!</span>
           </div>
         )}
       </div>
