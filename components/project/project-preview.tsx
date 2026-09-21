@@ -16,10 +16,10 @@ export function ProjectPreview({ project, className }: ProjectPreviewProps) {
     (project.id === "soldbay"
       ? "/soldbay.png"
       : project.id === "uniflow"
-      ? "/uniflow.png"
-      : project.id === "ifesquare"
-      ? "/ifesquare.png"
-      : "/soldbay.png")
+        ? "/uniflow.png"
+        : project.id === "ifesquare"
+          ? "/ifesquare.png"
+          : "/soldbay.png")
 
   return (
     <div className={cn("relative w-full max-w-2xl mx-auto group", className)}>
