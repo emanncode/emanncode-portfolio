@@ -29,7 +29,7 @@ export function ArticlePagination({
         aria-label="Go to article page 1"
         aria-current={currentPage === 1 ? "page" : undefined}
         className={cn(
-          "size-8 sm:size-9 rounded-full flex items-center justify-center font-mono text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer select-none",
+          "size-8 sm:size-9 rounded-full flex items-center justify-center font-sans text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer select-none",
           currentPage === 1
             ? "bg-foreground text-background shadow-md scale-105"
             : "border border-border/60 bg-card/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 hover:scale-105 active:scale-95"
@@ -45,7 +45,7 @@ export function ArticlePagination({
         aria-label="Go to article page 2"
         aria-current={currentPage === 2 ? "page" : undefined}
         className={cn(
-          "size-8 sm:size-9 rounded-full flex items-center justify-center font-mono text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer select-none",
+          "size-8 sm:size-9 rounded-full flex items-center justify-center font-sans text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer select-none",
           currentPage === 2
             ? "bg-foreground text-background shadow-md scale-105"
             : "border border-border/60 bg-card/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 hover:scale-105 active:scale-95"
@@ -65,7 +65,7 @@ export function ArticlePagination({
         }
         aria-current={currentPage === 3 ? "page" : undefined}
         className={cn(
-          "size-8 sm:size-9 rounded-full flex items-center justify-center font-mono text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer select-none",
+          "size-8 sm:size-9 rounded-full flex items-center justify-center font-sans text-xs sm:text-sm font-medium transition-all duration-300 cursor-pointer select-none",
           currentPage === 3
             ? "bg-foreground text-background shadow-md scale-105"
             : "border border-border/60 bg-card/20 text-muted-foreground hover:text-foreground hover:border-foreground/40 hover:scale-105 active:scale-95"

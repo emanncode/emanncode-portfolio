@@ -28,8 +28,8 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
     >
       {/* Upper Content */}
       <div className="space-y-3">
-        {/* Title in monospace matching reference */}
-        <h3 className="font-mono text-base sm:text-lg font-bold tracking-tight text-foreground leading-snug group-hover:text-primary transition-colors duration-200">
+        {/* Title in font-heading matching portfolio style */}
+        <h3 className="font-heading text-lg sm:text-xl font-medium tracking-tight text-foreground leading-snug group-hover:text-primary transition-colors duration-200">
           {article.title}
         </h3>
 
@@ -43,7 +43,7 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
       <div className="pt-6 mt-auto">
         <div className="flex items-center gap-2">
           {/* Pill button: white pill matching reference */}
-          <div className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 sm:px-6 py-2 text-xs sm:text-sm font-mono font-medium text-background transition-all duration-300 group-hover:bg-foreground/90 select-none shadow-sm">
+          <div className="inline-flex items-center gap-2 rounded-full bg-foreground px-5 sm:px-6 py-2 text-xs sm:text-sm font-sans font-medium text-background transition-all duration-300 group-hover:bg-foreground/90 select-none shadow-sm">
             <span>{article.statusText || "Coming soon"}</span>
           </div>
 
@@ -58,7 +58,7 @@ export function ArticleCard({ article, className }: ArticleCardProps) {
 
         {/* Temporary notification when user clicks */}
         {showNotice && (
-          <div className="absolute inset-x-4 bottom-4 flex items-center justify-center gap-2 rounded-xl bg-card border border-border/80 px-3 py-2 text-center text-xs font-mono text-foreground shadow-lg animate-in fade-in zoom-in-95 duration-200 z-30">
+          <div className="absolute inset-x-4 bottom-4 flex items-center justify-center gap-2 rounded-xl bg-card border border-border/80 px-3 py-2 text-center text-xs font-sans text-foreground shadow-lg animate-in fade-in zoom-in-95 duration-200 z-30">
             <Clock size={13} className="text-muted-foreground shrink-0" />
             <span>Not available yet — writing in progress. Coming soon!</span>
           </div>

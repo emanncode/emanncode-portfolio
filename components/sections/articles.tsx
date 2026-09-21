@@ -25,9 +25,9 @@ export default function Articles() {
       <div className="relative z-10 flex flex-col px-[8%]">
         {/* Outer Editorial Container Card from reference design */}
         <div className="relative w-full rounded-3xl sm:rounded-4xl border border-border/30 bg-card/10 p-6 sm:p-10 lg:p-12 backdrop-blur-xs">
-          {/* Header: Pure Articles heading in monospace right-aligned matching reference */}
+          {/* Header: Pure Articles heading in font-heading right-aligned matching reference */}
           <div className="flex justify-end pb-6 sm:pb-8 border-b border-border/20">
-            <h2 className="font-mono text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-foreground select-none">
+            <h2 className="font-heading text-4xl sm:text-6xl lg:text-7xl font-semibold tracking-tight text-foreground select-none">
               Articles
             </h2>
           </div>
