@@ -1,7 +1,6 @@
 "use client"
 
-import { useRef } from "react"
-import { ArrowRightIcon, type ArrowRightIconHandle } from "@/components/ui/arrow-right"
+import { ArrowUpRight } from "lucide-react"
 import { cn } from "@/lib/utils"
 
 interface LiveDemoButtonProps {
@@ -15,8 +14,6 @@ export function LiveDemoButton({
   className,
   size = "md",
 }: LiveDemoButtonProps) {
-  const arrowRef = useRef<ArrowRightIconHandle>(null)
-
   const sizeClasses = {
     sm: "size-9 sm:size-10",
     md: "size-11 sm:size-12",
@@ -40,13 +37,10 @@ export function LiveDemoButton({
         sizeClasses[size],
         className
       )}
-      onMouseEnter={() => arrowRef.current?.startAnimation()}
-      onMouseLeave={() => arrowRef.current?.stopAnimation()}
     >
-      <ArrowRightIcon
-        ref={arrowRef}
+      <ArrowUpRight
         size={iconSizes[size]}
-        className="-rotate-45 text-background transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+        className="text-background transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
       />
     </a>
   )
