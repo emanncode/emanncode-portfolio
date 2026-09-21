@@ -22,19 +22,33 @@ export function useSequentialIconAnimation(
     const playNext = () => {
       if (isCancelled) return
 
-      // Stop previous animations
-      iconRefs.current.forEach((handle) => handle?.stopAnimation())
+      // Stop previous animations safely
+      iconRefs.current.forEach((handle) => {
+        try {
+          handle?.stopAnimation()
+        } catch {
+          // ignore
+        }
+      })
 
-      // Start current animation
+      // Start current animation safely
       const current = iconRefs.current[currentIndex]
       if (current) {
-        current.startAnimation()
+        try {
+          current.startAnimation()
+        } catch {
+          // ignore
+        }
       }
 
       timeoutId = setTimeout(() => {
         if (isCancelled) return
         if (current) {
-          current.stopAnimation()
+          try {
+            current.stopAnimation()
+          } catch {
+            // ignore
+          }
         }
         currentIndex = (currentIndex + 1) % itemCount
         playNext()
@@ -46,7 +60,13 @@ export function useSequentialIconAnimation(
     return () => {
       isCancelled = true
       clearTimeout(timeoutId)
-      iconRefs.current.forEach((handle) => handle?.stopAnimation())
+      iconRefs.current.forEach((handle) => {
+        try {
+          handle?.stopAnimation()
+        } catch {
+          // ignore
+        }
+      })
     }
   }, [itemCount, delayMs, durationMs])
 

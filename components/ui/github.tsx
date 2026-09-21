@@ -3,7 +3,7 @@
 import type { Variants } from "motion/react";
 import { motion, useAnimation } from "motion/react";
 import type { HTMLAttributes } from "react";
-import { forwardRef, useCallback, useImperativeHandle, useRef } from "react";
+import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef } from "react";
 
 import { cn } from "@/lib/utils";
 
@@ -66,19 +66,35 @@ const GithubIcon = forwardRef<GithubIconHandle, GithubIconProps>(
     const bodyControls = useAnimation();
     const tailControls = useAnimation();
     const isControlledRef = useRef(false);
+    const isMounted = useRef(false);
+
+    useEffect(() => {
+      isMounted.current = true;
+      return () => {
+        isMounted.current = false;
+      };
+    }, []);
 
     useImperativeHandle(ref, () => {
       isControlledRef.current = true;
 
       return {
         startAnimation: async () => {
-          bodyControls.start("animate");
-          await tailControls.start("draw");
-          tailControls.start("wag");
+          if (!isMounted.current) return;
+          try {
+            bodyControls.start("animate");
+            await tailControls.start("draw");
+            if (isMounted.current) {
+              tailControls.start("wag");
+            }
+          } catch {}
         },
         stopAnimation: () => {
-          bodyControls.start("normal");
-          tailControls.start("normal");
+          if (!isMounted.current) return;
+          try {
+            bodyControls.start("normal");
+            tailControls.start("normal");
+          } catch {}
         },
       };
     });
