@@ -2,6 +2,7 @@ import About from "@/components/sections/about"
 import Hero from "@/components/sections/hero"
 import Navbar from "@/components/sections/navbar"
 import Projects from "@/components/sections/projects"
+import Articles from "@/components/sections/articles"
 import { BackToTop } from "@/components/ui/back-to-top"
 
 export default function Page() {
@@ -11,6 +12,7 @@ export default function Page() {
       <Hero />
       <About />
       <Projects />
+      <Articles />
       <BackToTop />
     </main>
   )
