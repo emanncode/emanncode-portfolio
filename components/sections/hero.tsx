@@ -11,14 +11,25 @@ export default function Hero() {
 
   return (
     <div className="relative z-0 flex min-h-[65vh] sm:min-h-[72vh] lg:min-h-[calc(100vh-90px)] flex-col justify-between pt-6 sm:pt-10 lg:pt-14 px-[8%]">
+      {/* Accessible primary h1 for search engines and assistive technology */}
+      <h1 className="sr-only">
+        Ifeoluwa Olajubaje — Front-end &amp; Mobile Engineer
+      </h1>
+
       {/* Mobile & Tablet (< lg): Title, Tablet Projects button, and Paragraph centered */}
       <div className="flex flex-col items-center text-center lg:hidden">
-        <h1 className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading leading-tight">
+        <p
+          className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading leading-tight"
+          aria-hidden="true"
+        >
           Front-end
-        </h1>
-        <h1 className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading mt-1 sm:mt-2 leading-tight">
+        </p>
+        <p
+          className="text-5xl font-normal tracking-tight sm:tracking-wider sm:text-6xl md:text-7xl font-heading mt-1 sm:mt-2 leading-tight"
+          aria-hidden="true"
+        >
           Engineer
-        </h1>
+        </p>
 
         {/* Projects button: Tablet only (hidden completely on mobile view) */}
         <div className="hidden sm:flex lg:hidden items-center mt-4">
@@ -34,18 +45,24 @@ export default function Hero() {
       {/* Desktop (lg+): Editorial Split Layout */}
       <div className="hidden lg:flex flex-col gap-4 xl:gap-2">
         <div className="flex items-center justify-between">
-          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading">
+          <p
+            className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading"
+            aria-hidden="true"
+          >
             Front-end
-          </h1>
+          </p>
           <ProjectsButton variant="desktop" />
         </div>
         <div className="flex items-center justify-between gap-6 xl:gap-8">
           <p className="max-w-lg xl:max-w-xl 2xl:max-w-2xl text-left text-2xl leading-relaxed xl:leading-8 text-muted-foreground font-sans">
             I build interfaces around <span className="text-foreground">real product requirements</span>, not <span className="text-foreground">isolated screens,</span> turning <span className="text-foreground">complex workflows</span> into <span className="text-foreground">clear, responsive experiences</span> across <span className="text-foreground">web and mobile</span> with <span className="text-foreground">clean, maintainable, and understandable</span> code.
           </p>
-          <h1 className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading">
+          <p
+            className="text-7xl xl:text-[100px] 2xl:text-[140px] tracking-widest leading-none font-heading"
+            aria-hidden="true"
+          >
             Engineer
-          </h1>
+          </p>
         </div>
       </div>
 

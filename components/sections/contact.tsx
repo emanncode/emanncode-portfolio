@@ -30,10 +30,10 @@ export default function Contact() {
               Ifeoluwa
             </h2>
             <div className="flex items-baseline gap-3 sm:gap-6 lg:gap-10 mt-1 sm:mt-2">
-              <h1 className="flex flex-col text-[11px] sm:text-xs md:text-sm text-muted-foreground leading-tight tracking-wider uppercase shrink-0">
+              <p className="flex flex-col text-[11px] sm:text-xs md:text-sm text-muted-foreground leading-tight tracking-wider uppercase shrink-0">
                 <span>Front-end</span>
                 <span>Engineer</span>
-              </h1>
+              </p>
               <h2 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl font-semibold tracking-tight text-foreground/80 leading-[0.95]">
                 Olajubaje
               </h2>
