@@ -30,11 +30,11 @@ export function ProjectPreview({ project, className }: ProjectPreviewProps) {
       <div className="relative z-10 w-full overflow-hidden rounded-3xl sm:rounded-4xl border border-border/40 bg-card shadow-[0_25px_60px_-15px_rgba(0,0,0,0.7)] transition-all duration-500 hover:shadow-[0_35px_70px_-15px_rgba(0,0,0,0.85)] hover:border-foreground/30">
         <Image
           src={imageSrc}
-          alt={project.title}
+          alt={`${project.title} — ${project.subtitle || "Project preview"}`}
           width={1200}
           height={900}
           className="w-full h-auto object-cover object-top transition-transform duration-700 ease-out group-hover:scale-[1.02]"
-          priority
+          priority={project.id === "soldbay"}
         />
 
         {/* Floating Live Demo Button sitting directly on the picture */}
