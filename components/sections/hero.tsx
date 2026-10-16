@@ -13,7 +13,7 @@ export default function Hero() {
     <div className="relative z-0 flex min-h-[65vh] sm:min-h-[72vh] lg:min-h-[calc(100vh-90px)] flex-col justify-between pt-6 sm:pt-10 lg:pt-14 px-[8%]">
       {/* Accessible primary h1 for search engines and assistive technology */}
       <h1 className="sr-only">
-        Ifeoluwa Olajubaje — Front-end &amp; Mobile Engineer
+        EmannCode (Ifeoluwa Olajubaje) — Front-end &amp; Mobile Engineer
       </h1>
 
       {/* Mobile & Tablet (< lg): Title, Tablet Projects button, and Paragraph centered */}

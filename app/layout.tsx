@@ -19,14 +19,21 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL("https://emanncode.work"),
   title: {
-    default: "Ifeoluwa Olajubaje | Front-end Engineer",
-    template: "%s | Ifeoluwa Olajubaje",
+    default: "EmannCode — Ifeoluwa Olajubaje | Front-end & Mobile Engineer",
+    template: "%s | EmannCode",
   },
   description:
-    "Ifeoluwa Olajubaje (EmannCode) — Front-end & Mobile Engineer building high-performance, accessible web and mobile applications with React, Next.js, and TypeScript.",
+    "Official portfolio of EmannCode (Ifeoluwa Olajubaje). Front-end & Mobile Engineer building high-performance web applications, creator of Soldbay, Uniflow, and Ifesquare.",
   keywords: [
-    "Ifeoluwa Olajubaje",
     "EmannCode",
+    "EmannCode portfolio",
+    "Ifeoluwa Olajubaje",
+    "Soldbay",
+    "Uniflow",
+    "Ifesquare",
+    "Soldbay creator",
+    "Uniflow developer",
+    "Ifesquare ledger",
     "Front-end Engineer",
     "Mobile Engineer",
     "React",
@@ -36,16 +43,16 @@ export const metadata: Metadata = {
     "Software Engineer",
     "Web Developer",
   ],
-  authors: [{ name: "Ifeoluwa Olajubaje", url: "https://emanncode.work" }],
-  creator: "Ifeoluwa Olajubaje",
-  publisher: "Ifeoluwa Olajubaje",
+  authors: [{ name: "EmannCode (Ifeoluwa Olajubaje)", url: "https://emanncode.work" }],
+  creator: "EmannCode (Ifeoluwa Olajubaje)",
+  publisher: "EmannCode",
   alternates: {
     canonical: "/",
   },
   openGraph: {
-    title: "Ifeoluwa Olajubaje | Front-end Engineer",
+    title: "EmannCode — Ifeoluwa Olajubaje | Front-end & Mobile Engineer",
     description:
-      "Front-end & Mobile Engineer building high-performance, accessible web and mobile applications with React, Next.js, and TypeScript.",
+      "Official portfolio of EmannCode (Ifeoluwa Olajubaje). Front-end & Mobile Engineer building high-performance web applications, creator of Soldbay, Uniflow, and Ifesquare.",
     url: "https://emanncode.work",
     siteName: "EmannCode",
     locale: "en_US",
@@ -55,15 +62,15 @@ export const metadata: Metadata = {
         url: "/emann.png",
         width: 1200,
         height: 630,
-        alt: "Ifeoluwa Olajubaje — Front-end Engineer",
+        alt: "EmannCode (Ifeoluwa Olajubaje) — Front-end & Mobile Engineer",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ifeoluwa Olajubaje | Front-end Engineer",
+    title: "EmannCode — Ifeoluwa Olajubaje | Front-end & Mobile Engineer",
     description:
-      "Front-end & Mobile Engineer building high-performance, accessible web and mobile applications with React, Next.js, and TypeScript.",
+      "Official portfolio of EmannCode (Ifeoluwa Olajubaje). Front-end & Mobile Engineer building high-performance web applications, creator of Soldbay, Uniflow, and Ifesquare.",
     images: ["/emann.png"],
     creator: "@emanncode",
   },
@@ -86,11 +93,11 @@ const jsonLd = {
     {
       "@type": "Person",
       "@id": "https://emanncode.work/#person",
-      name: "Ifeoluwa Olajubaje",
-      alternateName: ["Emmanuel Olajubaje", "EmannCode"],
+      name: "EmannCode",
+      alternateName: ["Ifeoluwa Olajubaje", "Emmanuel Olajubaje"],
       url: "https://emanncode.work",
       image: "https://emanncode.work/me.jpg",
-      jobTitle: "Front-end Engineer",
+      jobTitle: "Front-end & Mobile Engineer",
       sameAs: [
         "https://x.com/emanncode",
         "https://www.linkedin.com/in/emmanuel-olajubaje-86178a42a/",
@@ -108,13 +115,40 @@ const jsonLd = {
         "Web Development",
         "Front-end Engineering",
       ],
+      workExample: [
+        {
+          "@type": "WebApplication",
+          name: "Soldbay",
+          url: "https://soldbay.shop",
+          description: "Peer-to-Peer Campus Marketplace engineered by EmannCode",
+          applicationCategory: "ShoppingApplication",
+        },
+        {
+          "@type": "WebApplication",
+          name: "Uniflow",
+          url: "https://uniflowapp.xyz",
+          description:
+            "Academic Coordination & University Timetable Platform engineered by EmannCode",
+          applicationCategory: "EducationalApplication",
+        },
+        {
+          "@type": "WebApplication",
+          name: "Ifesquare",
+          url: "https://ifesquare.uniflowapp.xyz",
+          description:
+            "Smart Inventory & Retail Ledger Engine engineered by EmannCode",
+          applicationCategory: "BusinessApplication",
+        },
+      ],
     },
     {
       "@type": "WebSite",
       "@id": "https://emanncode.work/#website",
       url: "https://emanncode.work",
-      name: "EmannCode — Ifeoluwa Olajubaje Portfolio",
-      description: "Portfolio of Ifeoluwa Olajubaje, Front-end Engineer.",
+      name: "EmannCode — Official Portfolio",
+      alternateName: ["EmannCode", "Ifeoluwa Olajubaje Portfolio"],
+      description:
+        "Official portfolio of EmannCode (Ifeoluwa Olajubaje), Front-end & Mobile Engineer.",
       publisher: {
         "@id": "https://emanncode.work/#person",
       },
@@ -123,7 +157,7 @@ const jsonLd = {
       "@type": "ProfilePage",
       "@id": "https://emanncode.work/#profilepage",
       url: "https://emanncode.work",
-      name: "Ifeoluwa Olajubaje | Front-end Engineer",
+      name: "EmannCode — Ifeoluwa Olajubaje | Front-end & Mobile Engineer",
       mainEntity: {
         "@id": "https://emanncode.work/#person",
       },
