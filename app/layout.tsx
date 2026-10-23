@@ -43,7 +43,9 @@ export const metadata: Metadata = {
     "Software Engineer",
     "Web Developer",
   ],
-  authors: [{ name: "EmannCode (Ifeoluwa Olajubaje)", url: "https://emanncode.work" }],
+  authors: [
+    { name: "EmannCode (Ifeoluwa Olajubaje)", url: "https://emanncode.work" },
+  ],
   creator: "EmannCode (Ifeoluwa Olajubaje)",
   publisher: "EmannCode",
   alternates: {
@@ -120,7 +122,8 @@ const jsonLd = {
           "@type": "WebApplication",
           name: "Soldbay",
           url: "https://soldbay.shop",
-          description: "Peer-to-Peer Campus Marketplace engineered by EmannCode",
+          description:
+            "Peer-to-Peer Campus Marketplace engineered by EmannCode",
           applicationCategory: "ShoppingApplication",
         },
         {
@@ -173,7 +176,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className="dark"
+      className="dark scroll-smooth"
       style={{ colorScheme: "dark" }}
       suppressHydrationWarning
     >

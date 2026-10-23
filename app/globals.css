@@ -61,10 +61,10 @@
   /* #FAFAF9 */
   --foreground: oklch(0.268 0.006 34.3);
   /* #292524 ink */
-  --card: oklch(1.000 0.000 89.9);
+  --card: oklch(1 0 89.9);
   /* #FFFFFF */
   --card-foreground: oklch(0.268 0.006 34.3);
-  --popover: oklch(1.000 0.000 89.9);
+  --popover: oklch(1 0 89.9);
   --popover-foreground: oklch(0.268 0.006 34.3);
 
   /* primary = our brand accent (muted plum) — the one identity/CTA color, used sparingly */
@@ -74,13 +74,13 @@
   /* white — verified 4.84:1 */
 
   /* secondary/muted/accent = neutral supporting fills; personal brand has no 2nd brand hue */
-  --secondary: oklch(0.950 0.003 48.7);
+  --secondary: oklch(0.95 0.003 48.7);
   /* #F0EEED */
   --secondary-foreground: oklch(0.268 0.006 34.3);
-  --muted: oklch(0.950 0.003 48.7);
+  --muted: oklch(0.95 0.003 48.7);
   --muted-foreground: oklch(0.553 0.012 58.1);
   /* #78716C */
-  --accent: oklch(0.950 0.003 48.7);
+  --accent: oklch(0.95 0.003 48.7);
   --accent-foreground: oklch(0.268 0.006 34.3);
 
   --destructive: oklch(0.534 0.141 26.2);
@@ -116,51 +116,51 @@
   --sidebar-foreground: oklch(0.268 0.006 34.3);
   --sidebar-primary: oklch(0.556 0.052 310.9);
   --sidebar-primary-foreground: oklch(1 0 0);
-  --sidebar-accent: oklch(0.950 0.003 48.7);
+  --sidebar-accent: oklch(0.95 0.003 48.7);
   --sidebar-accent-foreground: oklch(0.268 0.006 34.3);
   --sidebar-border: oklch(0.666 0.011 48.5);
   --sidebar-ring: oklch(0.556 0.052 310.9);
 }
 
 .dark {
-  --background: oklch(0.216 0.006 56.0);
+  --background: oklch(0.216 0.006 56);
   /* #1C1917 */
-  --foreground: oklch(0.970 0.001 106.4);
+  --foreground: oklch(0.97 0.001 106.4);
   /* #F5F5F4 */
   --card: oklch(0.268 0.006 34.3);
   /* #292524 */
-  --card-foreground: oklch(0.970 0.001 106.4);
+  --card-foreground: oklch(0.97 0.001 106.4);
   --popover: oklch(0.268 0.006 34.3);
-  --popover-foreground: oklch(0.970 0.001 106.4);
+  --popover-foreground: oklch(0.97 0.001 106.4);
 
   --primary: oklch(0.724 0.053 310.1);
   /* #B09DBF */
-  --primary-foreground: oklch(0.216 0.006 56.0);
+  --primary-foreground: oklch(0.216 0.006 56);
   /* ink — dark variant is lighter, verified 6.08:1 */
 
   --secondary: oklch(0.308 0.009 67.5);
   /* #332F2B */
-  --secondary-foreground: oklch(0.970 0.001 106.4);
+  --secondary-foreground: oklch(0.97 0.001 106.4);
   --muted: oklch(0.308 0.009 67.5);
   --muted-foreground: oklch(0.716 0.008 48.6);
   /* #A8A29F */
   --accent: oklch(0.308 0.009 67.5);
-  --accent-foreground: oklch(0.970 0.001 106.4);
+  --accent-foreground: oklch(0.97 0.001 106.4);
 
   /* dark-mode semantics were built as TEXT colors (light, readable on dark bg) —
      as FILLS they need ink foreground, not white. Verified, not assumed. */
   --destructive: oklch(0.713 0.098 26.1);
   /* #D98A82 */
-  --destructive-foreground: oklch(0.216 0.006 56.0);
+  --destructive-foreground: oklch(0.216 0.006 56);
   --success: oklch(0.737 0.103 169.3);
   /* #5FBF9F */
-  --success-foreground: oklch(0.216 0.006 56.0);
-  --warning: oklch(0.761 0.110 76.8);
+  --success-foreground: oklch(0.216 0.006 56);
+  --warning: oklch(0.761 0.11 76.8);
   /* #D9A85C */
-  --warning-foreground: oklch(0.216 0.006 56.0);
-  --info: oklch(0.695 0.070 270.5);
+  --warning-foreground: oklch(0.216 0.006 56);
+  --info: oklch(0.695 0.07 270.5);
   /* #8C9BC9 */
-  --info-foreground: oklch(0.216 0.006 56.0);
+  --info-foreground: oklch(0.216 0.006 56);
 
   --border: oklch(0.542 0.014 67.5);
   /* #756E67 */
@@ -175,11 +175,11 @@
   --chart-5: oklch(0.269 0 0);
 
   --sidebar: oklch(0.268 0.006 34.3);
-  --sidebar-foreground: oklch(0.970 0.001 106.4);
+  --sidebar-foreground: oklch(0.97 0.001 106.4);
   --sidebar-primary: oklch(0.724 0.053 310.1);
-  --sidebar-primary-foreground: oklch(0.216 0.006 56.0);
+  --sidebar-primary-foreground: oklch(0.216 0.006 56);
   --sidebar-accent: oklch(0.308 0.009 67.5);
-  --sidebar-accent-foreground: oklch(0.970 0.001 106.4);
+  --sidebar-accent-foreground: oklch(0.97 0.001 106.4);
   --sidebar-border: oklch(0.542 0.014 67.5);
   --sidebar-ring: oklch(0.724 0.053 310.1);
 }
@@ -194,7 +194,7 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background font-sans text-foreground;
   }
 
   h1,
@@ -208,5 +208,11 @@
 
   p {
     @apply font-sans;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
