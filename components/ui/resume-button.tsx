@@ -11,7 +11,7 @@ interface ResumeButtonProps {
 }
 
 export function ResumeButton({
-  href = "",
+  href = "https://docs.google.com/document/d/1TH4MGZm0oEIaZiAuM8zz6U3lI3CGSmzc/edit?usp=sharing&ouid=108584005894092952959&rtpof=true&sd=true",
   variant = "desktop",
   className,
 }: ResumeButtonProps) {
